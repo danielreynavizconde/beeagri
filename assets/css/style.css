@@ -1215,6 +1215,9 @@ header .header-nav .nav-item ul li a {
     width: 100%;
     margin: 0px;
     padding: 0px 0px 50px 0px;
+    background-image: url('../images/hoja-3.png');
+    background-repeat: no-repeat !important;
+    background-position: right top !important;
 }
 
 .pricing h2 {
@@ -2673,6 +2676,7 @@ header .header-nav .nav-item ul li a {
     font-size: 70px;
     text-align: center;
     font-family: 'Maven Pro', sans-serif !important;
+    padding-bottom: 40px;
 }
 #ventajas h2 span
 {
