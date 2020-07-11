@@ -2663,6 +2663,7 @@ header .header-nav .nav-item ul li a {
 {
     width:100%;
     padding-bottom: 100px;
+    padding-top: 50px;
     background-image: url('../images/hoja-2.png');
     background-repeat: no-repeat !important;
     background-position: left top !important;
@@ -2746,8 +2747,18 @@ header .header-nav .nav-item ul li a {
     width: calc(100% - 50px) !important;
     margin-left: 25px;
 }
-.slideshowModulo button{
-    display: none !important;
+.slideshowModulo .slick-prev
+{
+    left: -65px;
+}
+.slideshowModulo .slick-next
+{
+    right: -55px;
+}
+.slick-prev::before, .slick-next::before
+{
+    color: #91bf3d !important;
+    font-size: 40px !important;
 }
 .slideshowModulo .slide {
     float: left;
