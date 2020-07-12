@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Titulos; /* requerido */
+    src: '../webfonts/AmpleSoftPro.otf';                        /* requerido */
+    font-weight: weight;                /* opcional */
+    font-style: style;                /* opcional */
+   }
+   @font-face
+{
+ font-family: 'Titulos';
+ src: url('../webfonts/AmpleSoftPro.otf');
+}
 /*Loading page*/
 
 .jm-loadingpage {
@@ -158,7 +169,7 @@ p {
     text-align: right;
     font-size: 80px;
     text-transform: none;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 
 .sec-title h3 {
@@ -225,6 +236,7 @@ header .header-nav {
     margin: 0px;
     padding: 0px;
     margin-right: 30px;
+    font-family: 'Titulos' !important;
 }
 
 .info-top .container a {
@@ -1590,7 +1602,7 @@ header .header-nav .nav-item ul li a {
 .form-control {
     background-color: #ffffff;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 16px;
     border: none;
 }
 
@@ -2141,13 +2153,13 @@ header .header-nav .nav-item ul li a {
     color: #fff !important;
     font-size: 40px;
     text-align: left;
-    line-height: 60px;
+    line-height: 50px;
     width: 100%;
     letter-spacing: 3px;
     padding: 0px;
     margin: 0px;
     font-weight: 800;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 
 .pogoSlider-slide-element .img-slider {
@@ -2161,7 +2173,7 @@ header .header-nav .nav-item ul li a {
     color: #fff !important;
     font-size: 20px;
     text-align: left;
-    width: 90%;
+    width: 70%;
     padding: 10px 0px 0px 0px;
     line-height: 28px;
     margin: 0px;
@@ -2540,12 +2552,13 @@ header .header-nav .nav-item ul li a {
 {
     max-height: 100px;
     padding: 10px 0px;
-}
-#cualidades .cualidad h3
-{
     color: #ffffff;
     margin-top: 10px;
     font-size: 24px;
+}
+#cualidades .cualidad h3 b
+{    
+    font-family: 'Titulos' !important;
 }
 #cualidades .cualidad p
 {
@@ -2561,12 +2574,13 @@ header .header-nav .nav-item ul li a {
     font-size: 90px;
     text-align: center;
     color: #87b53d;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
     padding: 70px;
+    font-weight: bold;
 }
 #quees span
 {    
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 #quees p
 {
@@ -2593,7 +2607,7 @@ header .header-nav .nav-item ul li a {
     font-size: 50px;
     color: #87B53D;
     margin-top: 80px;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
     margin-bottom: 15px;
 }
 #tecMovil p
@@ -2608,7 +2622,7 @@ header .header-nav .nav-item ul li a {
 {
     font-size: 40px;
     margin-top: 20px;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
     
     margin-bottom: 15px;
 }
@@ -2634,7 +2648,7 @@ header .header-nav .nav-item ul li a {
     margin-top: 40px;
     font-size: 40px;
     color: #ffffff;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
     margin-bottom: 15px;
 }
 #analizar p
@@ -2651,7 +2665,7 @@ header .header-nav .nav-item ul li a {
 {
     font-size: 40px;
     color: #264c73;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 #soporte p{
     padding: 15px 0px;
@@ -2675,12 +2689,12 @@ header .header-nav .nav-item ul li a {
 {
     font-size: 70px;
     text-align: center;
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
     padding-bottom: 40px;
 }
 #ventajas h2 span
 {
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 #ventajas .ventaja-1
 {
@@ -2693,7 +2707,7 @@ header .header-nav .nav-item ul li a {
 }
 #ventajas .ventaja-1 p
 {
-    font-size: 16px;
+    font-size: 19px;
     margin-bottom: 20px;
     margin-top: -80px;
     padding: 0px 50px;
@@ -2729,7 +2743,7 @@ header .header-nav .nav-item ul li a {
     display: block;
     float: left;
     width: 400px;
-    font-size: 16px;
+    font-size: 19px;
     padding: 0px 0px;
     margin-top: -75px;
     margin-left: 50px;
@@ -2743,7 +2757,7 @@ header .header-nav .nav-item ul li a {
 }
 #modulos .titulo
 {    
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 .slideshowModulo {
     float: left;
@@ -2778,7 +2792,7 @@ header .header-nav .nav-item ul li a {
     color: #ffffff;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-family: 'Maven Pro', sans-serif !important;
+    font-family: 'Titulos';
 }
 .slideshowModulo p {
     float: left;
