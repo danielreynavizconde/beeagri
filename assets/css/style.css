@@ -170,6 +170,11 @@ p {
     font-size: 80px;
     text-transform: none;
     font-family: 'Titulos';
+    font-weight: bold;
+}
+.sec-title h2 b{
+    font-family: 'Titulos';
+    font-weight: bold;
 }
 
 .sec-title h3 {
@@ -1361,6 +1366,7 @@ header .header-nav .nav-item ul li a {
     text-align: left;
     color: #91bf3d;
     font-weight: bold;
+    font-family: 'Titulos' !important;
 }
 
 .record .dato {
@@ -2604,10 +2610,11 @@ header .header-nav .nav-item ul li a {
 }
 #tecMovil h2
 {
-    font-size: 50px;
+    font-size: 40px;
     color: #87B53D;
     margin-top: 80px;
     font-family: 'Titulos';
+    font-weight: 900;
     margin-bottom: 15px;
 }
 #tecMovil p
@@ -2623,7 +2630,7 @@ header .header-nav .nav-item ul li a {
     font-size: 40px;
     margin-top: 20px;
     font-family: 'Titulos';
-    
+    font-weight: 900;    
     margin-bottom: 15px;
 }
 #integracion p
@@ -2650,6 +2657,7 @@ header .header-nav .nav-item ul li a {
     color: #ffffff;
     font-family: 'Titulos';
     margin-bottom: 15px;
+    font-weight: 900;
 }
 #analizar p
 {
@@ -2666,6 +2674,7 @@ header .header-nav .nav-item ul li a {
     font-size: 40px;
     color: #264c73;
     font-family: 'Titulos';
+    font-weight: 900;
 }
 #soporte p{
     padding: 15px 0px;
@@ -2691,6 +2700,7 @@ header .header-nav .nav-item ul li a {
     text-align: center;
     font-family: 'Titulos';
     padding-bottom: 40px;
+    font-weight: bold;
 }
 #ventajas h2 span
 {
@@ -2704,6 +2714,8 @@ header .header-nav .nav-item ul li a {
 {
     font-size: 120px;
     color: #DCEAC4;
+    font-weight: 900;
+    font-family: 'Titulos';
 }
 #ventajas .ventaja-1 p
 {
@@ -2737,6 +2749,8 @@ header .header-nav .nav-item ul li a {
     color: #DCEAC4;
     width: auto;
     display: block;
+    font-weight: 900;
+    font-family: 'Titulos';
 }
 #ventajas .ventaja-2 p
 {
@@ -2758,6 +2772,7 @@ header .header-nav .nav-item ul li a {
 #modulos .titulo
 {    
     font-family: 'Titulos';
+    font-weight: bold;
 }
 .slideshowModulo {
     float: left;
