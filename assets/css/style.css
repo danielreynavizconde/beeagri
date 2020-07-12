@@ -328,7 +328,15 @@ header .header-nav .nav-item ul li a {
     padding: 7px 20px;
     border-radius: 5px;
 }
-
+header .header-nav .nav-item ul li a:hover {
+    color: #ffffff;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background: #91bf3d;
+}
 @media screen and (max-width: 767px) {
     .logo-img {
         margin-top: 0px;
@@ -2803,7 +2811,7 @@ header .header-nav .nav-item ul li a {
     float: left;
     width: 130px;
     padding-right: 40px !important;
-    font-size: 70px;
+    font-size: 60px;
     color: #ffffff;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
