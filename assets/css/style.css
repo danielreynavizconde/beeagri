@@ -1451,9 +1451,7 @@ header .header-nav .nav-item ul li a:hover {
     }
 }
 
-
 /* ===============================Record2============================*/
-
 
 /*records*/
 
@@ -2718,6 +2716,12 @@ header .header-nav .nav-item ul li a:hover {
     height: 300px;
     padding: 30px;
 }
+@media (max-width: 500px) {
+    #analizar
+    {
+    height: auto;
+    }
+}
 #analizar img
 {
     width: 450px;
@@ -2741,6 +2745,12 @@ header .header-nav .nav-item ul li a:hover {
     width:100%;
     margin-top: 90px;
 }
+@media (max-width: 500px) {
+    #soporte
+    {
+    margin-top: 0px;
+    }
+}
 #soporte h2
 {
     font-size: 40px;
@@ -2757,6 +2767,22 @@ header .header-nav .nav-item ul li a:hover {
 {
     width: 160px;
 }
+@media (max-width: 500px) {
+    #soporte h2
+    {
+        font-size: 40px;
+        color: #264c73;
+        font-family: 'Titulos';
+        font-weight: 900;
+
+        padding: 40px 0px;
+    }
+    #soporte .dispositivos
+    {
+        display: none;
+    }
+
+}
 #ventajas
 {
     width:100%;
@@ -2766,6 +2792,14 @@ header .header-nav .nav-item ul li a:hover {
     background-repeat: no-repeat !important;
     background-position: left top !important;
 }
+@media (max-width: 500px) {
+    #ventajas
+    {        
+        background-image: none;
+        background-repeat: no-repeat !important;
+        background-position: left top !important;
+    }
+}
 #ventajas h2
 {
     font-size: 70px;
@@ -2773,6 +2807,16 @@ header .header-nav .nav-item ul li a:hover {
     font-family: 'Titulos';
     padding-bottom: 40px;
     font-weight: bold;
+}
+@media (max-width: 500px) {
+    #ventajas h2
+    {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Titulos';
+        padding-bottom: 40px;
+        font-weight: bold;
+    }
 }
 #ventajas h2 span
 {
@@ -2806,6 +2850,9 @@ header .header-nav .nav-item ul li a:hover {
 #ventajas .ventaja-2
 {
     margin-top: 40px;
+    background-image: url(assets/images/hoja.png);
+    background-position: right top;
+    background-repeat: no-repeat;
 } 
 #ventajas .ventaja-2 img
 {
@@ -2813,7 +2860,22 @@ header .header-nav .nav-item ul li a:hover {
     width: auto;
     margin-right: 20px;
     height: 300px;
-} 
+}
+@media screen and (max-width: 500px) {
+    #ventajas .ventaja-2 .col-sm-5
+    {
+        display: flex;
+    align-items: center;
+    }
+    #ventajas .ventaja-2 img
+    {
+        float: none;
+        margin: 0px auto;
+        margin-right: none;
+        width: auto;
+        height: 300px;
+    }
+}
 #ventajas .ventaja-2 h3
 {
     float: left;
@@ -2834,7 +2896,20 @@ header .header-nav .nav-item ul li a:hover {
     margin-top: -75px;
     margin-left: 50px;
 }
+@media screen and (max-width: 500px) {
+    #ventajas .ventaja-2 p
+    {
+        display: block;
+        float: left;
+        width: auto;
+        font-size: 19px;
+        padding: 0px 0px;
+        margin-top: -75px;
+        margin-left: 50px;
+    }
+}
 
+/*===========Modulos===========*/
 #modulos
 {
     float: left;
@@ -2871,25 +2946,71 @@ header .header-nav .nav-item ul li a:hover {
     border-radius: 50px;
     height: 430px;
 }
+@media screen and (max-width: 500px) {
+    .slideshowModulo .slide {
+        display: block !important;
+        height: auto;
+    }
+}
+.titulo-modulo
+{
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+}
 .slideshowModulo h2 {
     float: left;
     width: 130px;
     padding-right: 40px !important;
-    font-size: 60px;
+    font-size: 50px;
     color: #ffffff;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     font-family: 'Titulos';
 }
+@media screen and (max-width: 500px) {
+    .slideshowModulo h2 {
+        text-align: center;
+        width: 100%;
+        padding-right: 0px !important;
+        font-size: 40px;
+        writing-mode: horizontal-tb;
+        transform: none;
+    }
+}
+.contenido-modulo 
+{
+    height: 430px;
+    display: flex;
+    align-items: center;
+}
+
 .slideshowModulo p {
     float: left;
     height: auto;
-    display: flex;
-    align-items: center;
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 40px;
     padding-left: 30px;
+    width: 100%;
+}
+@media screen and (max-width: 500px) {
+    .contenido-modulo 
+    {
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    .slideshowModulo p {
+        float: left;
+        height: auto;
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-left: 30px;    
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 .slideshowModulo .slide ul{
     float: left;
@@ -2919,6 +3040,12 @@ margin-left: 50px;
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);*/
+}
+.imagen-modulo
+{
+    height: 430px;
+    display: flex;
+    align-items: center;
 }
 .slideshowModulo .slide .img-normal {
     height: 330px;
