@@ -1221,7 +1221,19 @@ header .header-nav .nav-item ul li a:hover {
     background-repeat: no-repeat !important;
     background-position: right top !important;
 }
-
+@media (max-width: 500px) {
+    .pricing {
+        overflow: hidden;
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 0px 15px 50px 15px;
+        background-image: none;
+        background-repeat: no-repeat !important;
+        background-position: right top !important;
+    }
+}
 .pricing h2 {
     width: 100%;
     box-sizing: border-box;
@@ -1330,7 +1342,14 @@ header .header-nav .nav-item ul li a:hover {
 
 .record {
     float: left;
-    width: 33.3%;
+}
+.record img{
+    margin: 0px auto;
+}
+@media screen and (max-width: 500px) {    
+    .record img{
+    margin-bottom: 40px;
+    }
 }
 .desc-record
 {
@@ -1353,7 +1372,6 @@ header .header-nav .nav-item ul li a:hover {
     font-weight: bold;
     font-family: 'Titulos' !important;
 }
-
 .record .dato {
     float: left;
     width: 100%;
@@ -1412,7 +1430,7 @@ header .header-nav .nav-item ul li a:hover {
     .record p:first-child {
         float: left;
         width: 100%;
-        font-size: 18px;
+        font-size: 24px;
         text-align: center;
         color: #91bf3d;
         font-weight: bold;
@@ -1424,9 +1442,12 @@ header .header-nav .nav-item ul li a:hover {
         font-weight: 800 !important;
         color: #8c8c8c;
         text-align: center;
-        margin-top: 0px;
+        margin-top: 30px;
         line-height: 85px;
         margin-bottom: 30px;
+    }
+    .record .linea-bottom {
+        display: none;
     }
 }
 
@@ -2614,6 +2635,10 @@ header .header-nav .nav-item ul li a:hover {
     text-align: center;
     padding: 70px 15px;
     }
+    #quees img
+    {
+    margin-bottom: 60px;
+    }
 }
 #quees span
 {    
@@ -2630,6 +2655,16 @@ header .header-nav .nav-item ul li a:hover {
     background-size: contain !important;
     background-repeat: round !important;
     background-position: bottom !important;
+}
+@media (max-width: 500px) {
+    #mockup-phones
+    {
+    background-image:none;
+    background-size: contain !important;
+    background-repeat: round !important;
+    background-position: bottom !important;
+    margin-top: 70px;
+    }
 }
 #mockup-phones img
 {
@@ -2655,6 +2690,12 @@ header .header-nav .nav-item ul li a:hover {
 #integracion
 {
     margin-top: -160px;
+}
+@media (max-width: 500px) {
+    #integracion
+    {
+        margin-top: 0px;
+    }
 }
 #integracion h2
 {
