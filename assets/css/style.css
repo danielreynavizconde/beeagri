@@ -194,28 +194,6 @@ p {
     }
 }
 
-
-/* ===================================== Header Style  ================================== */
-
-.hid {
-    display: none;
-}
-
-header {
-    position: relative;
-    width: 100%;
-    z-index: 999;
-    position: absolute;
-    margin-top: 40px;
-}
-
-header .header-nav {
-    background: #264C73;
-    width: 100%;
-    height: 75px;
-}
-
-
 /*============info top==============*/
 
 .info-top {
@@ -252,35 +230,36 @@ header .header-nav {
     margin-right: 20px;
 }
 
-@media (max-width: 736px) {
-    .info-top .container p {
-        float: left;
-        color: #ffffff;
-        margin: 0px;
-        padding: 0px;
-        margin-right: 10px;
-        font-size: 12px;
-    }
-    .info-top .container img {
-        float: left;
-        width: 13px;
-        color: #ffffff;
-        margin: 0px;
-        padding: 0px;
-        margin-right: 5px;
-        margin-top: 6px;
-    }
-    .info-top .container a {
-        float: inline-end;
-        color: #ffffff;
-        margin: 0px;
-        padding: 0px;
-        margin-right: 5px;
+@media (max-width: 600px) {
+    .info-top {
+        display: none;
     }
 }
 
-
 /*============info top==============*/
+/* =========== Header Style ================= */
+
+.hid {
+    display: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+    margin-top: 40px;
+}
+@media (max-width: 600px) {
+    header {
+        margin-top: 0px;
+    }
+}
+header .header-nav {
+    background: #264C73;
+    width: 100%;
+    height: 75px;
+}
 
 .logo-img {
     width: auto !important;
@@ -489,9 +468,7 @@ header .header-nav .nav-item ul li a:hover {
     color: #87B53D;
 }
 
-
 /* ===================================== Ament1,2,3,4 Start Style  ================================== */
-
 
 /* ===================================== Ament1 Style  ================================== */
 
@@ -2481,8 +2458,8 @@ header .header-nav .nav-item ul li a:hover {
 
 @media (max-width: 450px) {
     .pogoSlider {
-        margin-top: 110px;
-        height: calc(100vh - 110px) !important;
+        margin-top: 74px;
+        height: calc(100vh - 74px) !important;
     }
     .pogoSlider-slide-element {
         padding-top: 10px;
@@ -2543,6 +2520,17 @@ header .header-nav .nav-item ul li a:hover {
     background-repeat: round;
     height: 340px;
 }
+@media (max-width: 500px) {
+    #cualidades
+    {
+        padding-top: 0px;
+        background-image: none !important;
+        background-size: contain;
+        background-repeat: round;
+        height: auto;
+        padding: 15px;
+    }
+}
 #cualidades .row
 {
     margin-top: 60px;
@@ -2551,12 +2539,33 @@ header .header-nav .nav-item ul li a:hover {
     -moz-box-shadow: 8px 8px 0px -4px rgba(186,186,186,1);
     box-shadow: 8px 8px 0px -4px rgba(186,186,186,1);
 }
+@media (max-width: 500px) {
+    #cualidades .row
+    {
+    margin-top: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px -0px rgba(186,186,186,1);
+    -moz-box-shadow: 0px 0px 0px -0px rgba(186,186,186,1);
+    box-shadow: 0px 0px 0px -0px rgba(186,186,186,1);
+    }
+}
 #cualidades .cualidad
 {
     padding: 30px;
     background-image: url('../images/borde-cualidades.png') !important;
     background-repeat: no-repeat !important;
     background-position: bottom !important;
+}
+@media (max-width: 500px) {
+    #cualidades .cualidad
+    {
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        background-image: url('../images/borde-cualidades.png') !important;
+        background-repeat: no-repeat !important;
+        background-position: bottom !important;
+    }
 }
 #cualidades .cualidad img
 {
@@ -2583,6 +2592,12 @@ header .header-nav .nav-item ul li a:hover {
 {
     margin-top: 160px;
 }
+@media (max-width: 500px) {
+    #quees
+    {
+        margin-top: 0px;
+    }
+}
 #quees h2
 {
     font-size: 90px;
@@ -2591,6 +2606,14 @@ header .header-nav .nav-item ul li a:hover {
     font-family: 'Titulos';
     padding: 70px;
     font-weight: bold;
+}
+@media (max-width: 500px) {
+    #quees h2
+    {
+    font-size: 34px;
+    text-align: center;
+    padding: 70px 15px;
+    }
 }
 #quees span
 {    

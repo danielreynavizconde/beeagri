@@ -141,8 +141,8 @@ var define,global=arguments[3];"undefined"!=typeof navigator&&function(t,e){"fun
   border-radius: 3px;
 }
 .seeker::-webkit-slider-thumb {
-  height: 15px;
-  width: 15px;
+  height: 5px;
+  width: 5px;
   border-radius: 50%;
   background: var(--lottie-player-seeker-thumb-color);
   cursor: pointer;
