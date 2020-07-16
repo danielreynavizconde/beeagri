@@ -1240,10 +1240,21 @@ header .header-nav .nav-item ul li a:hover {
     float: left;
     margin: 0px;
     padding: 0px;
-    color: #f8b034;
     padding-bottom: 30px;
 }
+@media screen and (max-width: 500px) {
+    .pricing h2 {
+        width: 100%;
+        box-sizing: border-box;
+        float: left;
+        margin: 0px;
+        padding: 40px 0px;
+        padding-bottom: 30px;
 
+        font-size: 34px;
+
+    }
+}
 .slideshow {
     float: left;
     width: 100%;
@@ -1354,8 +1365,17 @@ header .header-nav .nav-item ul li a:hover {
 .desc-record
 {
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 50px;    
     font-size: 20px;
+    line-height: 28px;
+}
+@media screen and (max-width: 500px) {
+    .desc-record
+    {
+        float: left;
+        text-align: left;
+        padding: 0px 15px 50px 15px;
+    }
 }
 .record .linea-bottom {
     float: left;
@@ -2322,8 +2342,6 @@ header .header-nav .nav-item ul li a:hover {
         line-height: 36px;
         padding: 0px 0px 0px;
         text-align: center;
-        font-family: 'Play', sans-serif !important;
-        font-family: 'News Cycle', sans-serif !important;
         font-weight: normal;
     }
     .pogoSlider-slide-element ul.banner-agileits {
@@ -2391,6 +2409,38 @@ header .header-nav .nav-item ul li a:hover {
     .pogoSlider-slide-element {
         padding-top: 0px;
     }
+    .pogoSlider-slide-element .decoration {
+        float: none;
+        width: 90px;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+    .pogoSlider-slide-element h3 {
+        float: left;
+        color: #fff !important;
+        font-size: 50px;
+        text-align: center;
+        line-height: 60px;
+        width: 90%;
+        letter-spacing: 3px;
+        padding: 0px;
+        margin: 0px;
+        margin-left: 5%;
+        font-weight: 800;
+        font-family: 'Titulos';
+    }
+    .pogoSlider-slide-element p {
+        float: left;
+        color: #fff !important;
+        font-size: 28px;
+        text-align: center;
+        width: 90%;
+        padding: 10px 0px 0px 0px;
+        line-height: 28px;
+        margin: 0px;
+        margin-left: 5%;
+    }
 }
 
 @media (max-width: 736px) {
@@ -2436,8 +2486,8 @@ header .header-nav .nav-item ul li a:hover {
         float: left;
     }
     .pogoSlider-slide-element h3 {
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 60px;
+        line-height: 60px;
         padding: 0px 0px 0px;
     }
     .container-img-slider {
@@ -2488,8 +2538,8 @@ header .header-nav .nav-item ul li a:hover {
         float: left;
     }
     .pogoSlider-slide-element h3 {
-        font-size: 34px;
-        line-height: 34px;
+        font-size: 45px;
+        line-height: 45px;
         padding: 0px 0px 0px;
     }
     .banner-agileits li {
@@ -2584,6 +2634,10 @@ header .header-nav .nav-item ul li a:hover {
         background-image: url('../images/borde-cualidades.png') !important;
         background-repeat: no-repeat !important;
         background-position: bottom !important;
+
+        -webkit-box-shadow: 8px 8px 0px -4px rgba(186,186,186,1);
+    -moz-box-shadow: 8px 8px 0px -4px rgba(186,186,186,1);
+    box-shadow: 8px 8px 0px -4px rgba(186,186,186,1);
     }
 }
 #cualidades .cualidad img
@@ -2606,6 +2660,13 @@ header .header-nav .nav-item ul li a:hover {
 {
     font-size: 16px;
     color: #ffffff;
+}
+@media (max-width: 500px) {
+    #cualidades .cualidad p
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
 }
 #quees
 {
@@ -2645,6 +2706,7 @@ header .header-nav .nav-item ul li a:hover {
 #quees p
 {
     font-size: 20px;
+    line-height: 28px;
     margin-bottom: 15px;
 }
 #mockup-phones
@@ -2681,20 +2743,22 @@ header .header-nav .nav-item ul li a:hover {
     font-weight: 900;
     margin-bottom: 15px;
 }
+@media (max-width: 500px) {
+    #tecMovil h2
+    {
+        font-size: 34px;
+    }
+}
 #tecMovil p
 {
     font-size: 20px;
+    line-height: 28px;
 }
 #integracion
 {
     margin-top: -160px;
 }
-@media (max-width: 500px) {
-    #integracion
-    {
-        margin-top: 0px;
-    }
-}
+
 #integracion h2
 {
     font-size: 40px;
@@ -2707,6 +2771,21 @@ header .header-nav .nav-item ul li a:hover {
 {
     margin-bottom: 20px;
     font-size: 20px;
+    line-height: 28px;
+}
+@media (max-width: 500px) {
+    #integracion
+    {
+        margin-top: 0px;
+    }
+    #integracion h2
+    {
+        font-size: 34px;
+        margin-top: 20px;
+        font-family: 'Titulos';
+        font-weight: 900;    
+        margin-bottom: 15px;
+    }
 }
 #analizar
 {
@@ -2947,6 +3026,12 @@ header .header-nav .nav-item ul li a:hover {
     height: 430px;
 }
 @media screen and (max-width: 500px) {
+    #modulos .titulo
+{    
+    font-family: 'Titulos';
+    font-weight: bold;
+    font-size: 40px;
+}
     .slideshowModulo .slide {
         display: block !important;
         height: auto;
