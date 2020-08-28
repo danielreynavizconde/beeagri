@@ -1799,17 +1799,17 @@ header .header-nav .nav-item ul li a:hover {
 {
     float: left;
     width: 90%;
+    margin: 0px auto;
 }
 #quees .derecha
 {
     display: flex;
     align-items: center;
-    font-size: 16px;
 }
 #quees h3
 {
     width: 100%;
-    font-size: 3.813em;
+    font-size: 381%;
     margin-bottom: 20px;
     font-weight: bold;    
     font-family: 'Montserrat', sans-serif;
@@ -1818,7 +1818,7 @@ header .header-nav .nav-item ul li a:hover {
 #quees p
 {
     width: 100%;
-    font-size: 1.625em;
+    font-size: 162%;
     line-height: 1.231em;
     margin-bottom: 25px;
 }
@@ -1832,13 +1832,11 @@ header .header-nav .nav-item ul li a:hover {
     #quees img
     {
     margin-bottom: 30px;
-    width: 100%;
     }
     #quees .derecha
     {
         display: flex;
         align-items: center;
-        font-size: 10px;
     }
     #quees h3
     {
@@ -1950,13 +1948,12 @@ display: none;
     color: #fff;
     float: left;
     padding: 70px;
-    font-size: 16px;
 }
 #mockup-phones ul li
 {
     width: 100%;
     padding: 2px 0px;
-    font-size: 2.375em;
+    font-size: 237%;
     background-image: url('../images/hexagono.svg');
     background-repeat: no-repeat;
     background-size: initial;
@@ -1983,7 +1980,6 @@ display: none;
     #mockup-phones ul
     {        
         padding: 20px 5px;
-        font-size: 10px;
     }
     #mockup-phones ul li
     {
@@ -1995,6 +1991,23 @@ display: none;
         background-position: left;
         padding-left: 30px;
     }
+    
+}
+@media (max-width: 1300px) 
+{        
+    #mockup-phones ul
+    {        
+        padding: 20px 5px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 900px) 
+{        
+    #mockup-phones ul
+    {        
+        padding: 20px 5px;
+        font-size: 10px;
+    }
     #mockup-phones .panel2
     {
     display: none;
@@ -2005,7 +2018,7 @@ display: none;
     #mockup-phones ul
     {        
         padding: 20px 5px;
-        font-size: 6px;
+        font-size: 7px;
     }
 }
 #soporte
@@ -2072,7 +2085,7 @@ display: none;
     width: 150px;
     float: right;
 }
-@media (max-width: 768px) 
+@media (max-width: 768px)
 {
     #soporte h2
     {
