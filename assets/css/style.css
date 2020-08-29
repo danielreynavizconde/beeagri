@@ -483,7 +483,9 @@ header .header-nav .nav-item ul li a:hover {
 {
     float: left;
     width: 100%;
+    background-color: #ffffff;
     color: #fff;
+    padding: 0px 20px;
 }
 #SoporteyServicio .div-SoporteYServicio
 {
@@ -574,37 +576,13 @@ header .header-nav .nav-item ul li a:hover {
     font-size: 1.42em;
     line-height: 1.11em;
 }
-/* =====================================  Location Style  ================================== */
-.si-margin 
-{
-    padding-bottom: 20px;
-}
-.contact-us-single 
-{
-    background-color: #f7f7f7;
-    overflow: hidden;
-    box-sizing: border-box;
-    float: left;
-    width: 100%;
-    margin: 0px;
-    padding: 0px 40px 30px;
-}
-.form-control 
-{
-    background-color: #ffffff;
-    margin-bottom: 15px;
-    font-size: 16px;
-    border: none;
-}
-.form-control:focus 
-{
-    box-shadow: none;
-}
+/* =====================================  Nuestros Clientes  ================================== */
 #nuestrosCLientes
 {
     float: left;
     width: 100%;
     padding: 0px 40px 80px;
+    background: #fff;;
 }
 #nuestrosCLientes .izquierda
 {
@@ -640,7 +618,7 @@ header .header-nav .nav-item ul li a:hover {
     font-size: 187%;
     line-height: 1.33em;
     text-align: left;
-    margin-top: 175px;
+    margin-top: 185px;
 }
 @media screen and (max-width: 500px) 
 {
@@ -663,6 +641,28 @@ header .header-nav .nav-item ul li a:hover {
         margin-top: 15px;
     }
 }
+/* =====================================  Location Style  ================================== */
+.contact-us-single 
+{
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 30px 5px 30px;
+}
+.form-control 
+{
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: none;
+}
+.form-control:focus 
+{
+    box-shadow: none;
+}
+
 /* =====================================  Contat Us Style  ================================== */
 .contact-us 
 {
@@ -671,7 +671,7 @@ header .header-nav .nav-item ul li a:hover {
     float: left;
     width: 100%;
     margin: 0px;
-    padding: 50px 0px;
+    padding: 50px 5px;
     background: #ffffff !important;
 }
 #contact .sec-title 
@@ -752,20 +752,15 @@ header .header-nav .nav-item ul li a:hover {
     padding-bottom: 5px;
     width: auto;
 }
-
-
-
 .laptop-contacto
 {
     width: 86%;
-    margin-top: 65px;
 }
 @media screen and (max-width: 990px) 
 {
     .laptop-contacto
     {
         width: 100%;
-        margin-top: 65px;
     }
 }
 /*============================*/
@@ -1946,6 +1941,7 @@ header .header-nav .nav-item ul li a:hover {
     background-image: url("../images/fondo-div-2.png");
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: #ffffff;
 }
 #mockup-phones .fondo-desktop
 {
@@ -2062,6 +2058,7 @@ display: none;
     background-image: url("../images/abeja-fondo.png");
     background-repeat: no-repeat;
     background-position: right top;
+    background-color: #ffffff;
 }
 @media (max-width: 1700px) 
 {
