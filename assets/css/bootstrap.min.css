@@ -6639,7 +6639,7 @@ button.bg-dark:hover {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
     .d-md-none {
         display: none !important;
     }

@@ -5,15 +5,12 @@
 .pogoSlider
 { 
 	width:80%;
-	height: 845px !important;
 	position:relative;
-	overflow:hidden;
 	position: absolute;
-    top: calc(50% + 150px) !important;
+    top: calc(0% + 175px) !important;
     left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -0%);
 	z-index: 2;
-	border:solid 2px red;
 }
 #column-left .pogoSlider,#column-right .pogoSlider,#content .pogoSlider
 {
@@ -34,11 +31,8 @@
 	background-size: cover;
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter:alpha(opacity=0);
-	opacity:0;	
-	overflow:hidden;
-	display: flex;
+	opacity:0;
 	justify-content: center;
-	align-items: center;	
 }
 .pogoSlider-loading
 {
