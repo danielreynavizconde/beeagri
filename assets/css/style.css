@@ -649,7 +649,7 @@ header .header-nav .nav-item ul li a:hover {
     float: left;
     width: 100%;
     margin: 0px;
-    padding: 30px 5px 30px;
+    padding: 50px 5px 50px;
 }
 .form-control 
 {
@@ -1854,8 +1854,7 @@ header .header-nav .nav-item ul li a:hover {
 {    
     #quees
     {        
-        padding: 20px 0px;
-        margin-top: 90px;
+        padding: 50px 5px;
     }
     #quees img
     {
@@ -2044,6 +2043,13 @@ display: none;
 }
 @media (max-width: 500px) 
 {        
+    #mockup-phones
+    {       
+        background-image: url("../images/fondo-div-2-min.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff;
+    }
     #mockup-phones ul
     {        
         padding: 20px 5px;
