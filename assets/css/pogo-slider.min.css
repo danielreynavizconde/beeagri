@@ -5,14 +5,15 @@
 .pogoSlider
 { 
 	width:80%;
-	height: 900px !important;
+	height: 845px !important;
 	position:relative;
 	overflow:hidden;
 	position: absolute;
-    top: 60%;
+    top: calc(50% + 150px) !important;
     left: 50%;
-	transform: translate(-50%, -50%);	
+	transform: translate(-50%, -50%);
 	z-index: 2;
+	border:solid 2px red;
 }
 #column-left .pogoSlider,#column-right .pogoSlider,#content .pogoSlider
 {
