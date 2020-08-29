@@ -629,7 +629,7 @@ header .header-nav .nav-item ul li a:hover {
     #nuestrosCLientes .izquierda div
     {
         float: left;
-        font-size: 12px;
+        font-size: 8px;
     }
     #nuestrosCLientes .derecha
     {
@@ -649,7 +649,7 @@ header .header-nav .nav-item ul li a:hover {
     float: left;
     width: 100%;
     margin: 0px;
-    padding: 50px 5px 50px;
+    padding: 50px 20px 50px;
 }
 .form-control 
 {
@@ -671,7 +671,7 @@ header .header-nav .nav-item ul li a:hover {
     float: left;
     width: 100%;
     margin: 0px;
-    padding: 50px 5px;
+    padding: 50px 20px;
     background: #ffffff !important;
 }
 #contact .sec-title 
@@ -2003,7 +2003,7 @@ display: none;
 {    
     #mockup-phones .fondo-amarillo
     {
-        margin: 0px 10px;
+        margin: 0px 20px;
     }
     #mockup-phones ul
     {        
@@ -2052,7 +2052,7 @@ display: none;
     }
     #mockup-phones ul
     {        
-        padding: 20px 5px;
+        padding: 20px 15px;
         font-size: 7px;
     }
 }
@@ -2065,13 +2065,7 @@ display: none;
     background-repeat: no-repeat;
     background-position: right top;
     background-color: #ffffff;
-}
-@media (max-width: 1700px) 
-{
-    #soporte
-    {
-        margin-top: 0px;
-    }
+    padding: 0px 20px;
 }
 #soporte .div-integraciones1
 {
