@@ -4,20 +4,53 @@
 }
 .pogoSlider
 {
-	float: left;
-	width:80%;
-	margin:0px 10%;
+	width:1700px;
+	border:solid 6px blue;
+	height: calc(100% - 175px) !important;
+	max-width: 1920px;
+	margin:0px auto;
 	position: absolute;
-    top: calc(0% + 175px) !important;    
+	top: calc(0% + 175px) !important;
+	left:50%;
+    transform: translate(-50%, -0%);
+    -webkit-transform: translate(-50%, -0%);
 	z-index: 2;
 }
-@media (max-width: 768px) 
+@media (max-width: 1700px)
 {
 	.pogoSlider
 	{
-		width:100%;
+		width:1200px;
+		margin:0px;
+		top: calc(0% + 175px) !important;
+	}
+}
+@media (max-width: 1200px)
+{
+	.pogoSlider
+	{
+		width:900px;
+		margin:0px;
+		top: calc(0% + 175px) !important;
+	}
+}
+@media (max-width: 900px)
+{
+	.pogoSlider
+	{
+		width:700px;
+		margin:0px;
+		top: calc(0% + 175px) !important;
+	}
+}
+@media (max-width: 700px) 
+{
+	.pogoSlider
+	{
+		width:550px;
 		margin:0px;
 		top: calc(0% + 70px) !important;
+		height: calc(100% - 70px) !important;
 	}
 }
 .pogoSlider--banner .pogoSlider-slide
@@ -30,7 +63,7 @@
 {
 	float: left;
 	width:94%;
-	margin-left:3%;
+	margin:0px 3%;
 	height:auto;
 	position:absolute;	
 	background-repeat: no-repeat;
@@ -126,13 +159,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcce47', end
 @media (max-width: 823px) {
 	.pogoSlider-nav-btn
 	{
-		background:#ccc;
-		background:rgba(255,255,255,.5);
-		border:none;
-		border-radius:5px;
-		width:10px;
-		height:10px;
-		box-shadow:0 1px 1px rgba(0,0,0,.1);
+		display: none;
 	}
 	.pogoSlider-nav-btn--selected
 	{

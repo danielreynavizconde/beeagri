@@ -325,11 +325,13 @@ header .header-nav .nav-item ul li a:hover
     font-weight: 700;
     border-radius: 50px;
 }
-.btn-style-one:hover {
+.btn-style-one:hover 
+{
     background: none;
     color: #f9b233;
 }
-.logo-sgs {
+.logo-sgs 
+{
     width: 130px;
     display: block;
     margin: 0px auto;
@@ -675,7 +677,6 @@ header .header-nav .nav-item ul li a:hover
 {
     box-shadow: none;
 }
-
 /* =====================================  Contat Us Style  ================================== */
 .contact-us 
 {
@@ -787,7 +788,6 @@ header .header-nav .nav-item ul li a:hover
     padding: 50px 0px 50px 0px;
     background: #ffffff !important;
 }
-
 .contact-us2 .contat-det 
 {
     padding: 20px 0px;
@@ -1127,38 +1127,88 @@ header .header-nav .nav-item ul li a:hover
     }
 }
 
-/*====================================medidas para moviles================================*/
+/*==================================== Fondo Slider ================================*/
 .fondo-slider
 {
     float: left;
     width: 100%;
     height: auto;
     position: relative;
+    border: solid 2px red;
 }
 .fondo-slider .img-fondo
 {
     float: left;
     width: 100%;
-    height: auto;
+    height: 1031px;
     position: relative;
     z-index: 1;
+    border: cyan solid 3px;
 }
 .fondo-slider .img-panel4
 {
-    width: 210px;
+    width: 250px;
     float: right;
-    margin-top: -250px;
+    margin-top: -430px;
     z-index: 3;
     position: relative;
 }
-@media (max-width: 1550px) 
+@media (max-width: 1700px) 
+{    
+    .fondo-slider .img-fondo
+    {
+        float: left;
+        width: 100%;
+        height: 840px;
+        position: relative;
+        z-index: 1;
+        border: cyan solid 3px;
+    }
+}
+@media (max-width: 1200px) 
+{
+    .fondo-slider .img-fondo
+    {
+        float: left;
+        width: 100%;
+        height: 680px;
+        position: relative;
+        z-index: 1;
+        border: cyan solid 3px;
+    }
+}
+@media (max-width: 900px) 
+{
+    .fondo-slider .img-fondo
+    {
+        float: left;
+        width: 100%;
+        height: 580px;
+        position: relative;
+        z-index: 1;
+        border: cyan solid 3px;
+    }
+}
+@media (max-width: 700px) 
+{
+    .fondo-slider .img-fondo
+    {
+        float: left;
+        width: 100%;
+        height: 350px;
+        position: relative;
+        z-index: 1;
+        border: cyan solid 3px;
+    }
+}
+@media (max-width: 1700px) 
 {    
     .fondo-slider .img-panel4
     {
         display: none;
     }
 }
-/* ===================================== Slider Animation CSS ================================== */
+/* =============================== Slider Animation CSS =========================== */
 /*-- /reset code --*/
 .pogoSlider-slide-element 
 {
@@ -1219,12 +1269,12 @@ header .header-nav .nav-item ul li a:hover
     float: left;
     width: 100%;
     color: #f9b233 !important;
-    font-size: 60px;
-    line-height: 57px;
+    font-size: 72px;
+    line-height: 78px;
     text-align: left;    
     letter-spacing: 0px;
     padding: 0px;    
-    padding: 0px 0px 0px 40px;
+    padding: 0px 0px 0px 7%;
     margin: 0px;
     font-weight: bold;
 }
@@ -1243,14 +1293,44 @@ header .header-nav .nav-item ul li a:hover
 }
 /*-- /banner section --*/
 /*====================================medidas para pc medium================================*/
-@media (max-width: 1680px) 
+@media (max-width: 1700px) 
 {    
     .pogoSlider-slide-element h3 
     {
-        font-size: 40px;
+        font-size: 55px;
+        line-height: 60px;
+    }
+}
+@media (max-width: 1350px) 
+{    
+    .pogoSlider-slide-element h3 
+    {
+        font-size: 35px;
         line-height: 40px;
-        padding-bottom: 0;
-        z-index: 6;
+    }
+}
+@media (max-width: 950px) 
+{    
+    .pogoSlider-slide-element h3 
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+@media (max-width: 600px) 
+{    
+    .pogoSlider-slide-element h3 
+    {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+@media (max-width: 500px) 
+{    
+    .pogoSlider-slide-element h3 
+    {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 /**********************Que es BeeAgri********************************/
