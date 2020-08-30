@@ -26,8 +26,7 @@
         width: 100px;
     }
 }
-/****************************************Loading page************************************/
-/* ===================================== Import Less ================================== */
+/* ===================================== CSS Basico ================================== */
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -35,9 +34,9 @@
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
-body {
+body 
+{
     background: #F5F6FA;
-    overflow-x: hidden;
     float: left;
     width: 100%;
     height: auto;
@@ -100,9 +99,7 @@ label {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcce47', endColorstr='#f9b233', GradientType=1 );
 }
 /* ===========*********************** Header Style ***************================= */
-.hid {
-    display: none;
-}
+
 header {
     position: relative;
     width: 100%;
@@ -116,11 +113,16 @@ header .header-nav {
     background-repeat: no-repeat;
     background-position: center top;
 }
+@media screen and (max-width: 1550px) 
+{
+    header .header-nav {
+        background-image:none;
+    }
+}
 @media screen and (max-width: 768px) 
 {
     header .header-nav {
         padding: 0px 0px;
-        background-image:none;
     }
 }
 .logo-img 
@@ -352,144 +354,7 @@ header .header-nav .nav-item ul li a:hover
         margin: 30px 0px;
     }
 }
-/* =====================================  Pricing ================================== */
-.pricing 
-{
-    overflow: hidden;
-    box-sizing: border-box;
-    float: left;
-    width: 100%;
-    margin: 0px;
-    padding: 50px 0px 90px 0px;
-}
-@media (max-width: 500px) 
-{
-    .pricing 
-    {
-        overflow: hidden;
-        box-sizing: border-box;
-        float: left;
-        width: 100%;
-        margin: 0px;
-        padding: 0px 15px 50px 15px;
-        background-image: none;
-        background-repeat: no-repeat !important;
-        background-position: right top !important;
-    }
-}
-.pricing h2 
-{
-    width: 100%;
-    box-sizing: border-box;
-    float: left;
-    margin: 0px;
-    padding: 0px;
-    padding-bottom: 40px;
-}
-@media screen and (max-width: 500px) 
-{
-    .pricing h2 
-    {
-        width: 100%;
-        box-sizing: border-box;
-        float: left;
-        margin: 0px;
-        padding: 40px 0px;
-        padding-bottom: 30px;
-        font-size: 34px;
-    }
-}
-.pricing p
-{
-    width: 100%;
-    font-size: 22px;
-    line-height: 28px;
-    text-align: center;
-    color: #939393;
-    font-family: 'Montserrat', sans-serif;
-}
-.slideshow 
-{
-    float: left;
-    width: 100%;
-}
-@media screen and (max-width: 500px) 
-{
-    .pricing p
-    {
-        font-size: 18px;
-        line-height: 24px;
-        text-align: left;
-    }
-    .slideshow 
-    {
-        display: none !important;
-    }
-}
-.slideshow .slide 
-{
-    float: left;
-    width: 20%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-}
-.slideshow .slide img 
-{
-    width: 70%;
-    margin: 0px auto;
-    /*transition: opacity .275s;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);*/
-}
-.slideshow .slide img:hover 
-{
-    -webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);
-    -ms-filter: grayscale(0%);
-    -o-filter: grayscale(0%);
-    filter: grayscale(0%);
-    cursor: pointer;
-}
-.slideshowX1 
-{
-    float: left;
-    display: none !important;
-    width: calc(100% - 50px) !important;
-    margin-left: 25px;
-}
-.slideshowX1 .slide 
-{
-    float: left;
-    width: 20%;
-    height: auto;
-    display: flex;
-    align-items: center;
-}
-.slideshowX1 .slide img 
-{
-    width: 70%;
-    margin: 0px auto;
-    /*transition: opacity .275s;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    filter: grayscale(100%);*/
-}
-@media screen and (max-width: 500px) 
-{
-    .slideshowX1 
-    {
-        float: left;
-        width: 100%;
-        display: block !important;
-    }
-}
-/***************************** Soporte y servicio **************************************/
+/***************************** 6 Soporte y servicio **************************************/
 #SoporteyServicio
 {
     float: left;
@@ -650,6 +515,143 @@ header .header-nav .nav-item ul li a:hover
     #nuestrosCLientes p
     {
         margin-top: 15px;
+    }
+}
+/* =====================================  Pricing ================================== */
+.pricing 
+{
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 50px 0px 90px 0px;
+}
+@media (max-width: 500px) 
+{
+    .pricing 
+    {
+        overflow: hidden;
+        box-sizing: border-box;
+        float: left;
+        width: 100%;
+        margin: 0px;
+        padding: 0px 15px 50px 15px;
+        background-image: none;
+        background-repeat: no-repeat !important;
+        background-position: right top !important;
+    }
+}
+.pricing h2 
+{
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 40px;
+}
+@media screen and (max-width: 500px) 
+{
+    .pricing h2 
+    {
+        width: 100%;
+        box-sizing: border-box;
+        float: left;
+        margin: 0px;
+        padding: 40px 0px;
+        padding-bottom: 30px;
+        font-size: 34px;
+    }
+}
+.pricing p
+{
+    width: 100%;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #939393;
+    font-family: 'Montserrat', sans-serif;
+}
+.slideshow 
+{
+    float: left;
+    width: 100%;
+}
+@media screen and (max-width: 500px) 
+{
+    .pricing p
+    {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .slideshow 
+    {
+        display: none !important;
+    }
+}
+.slideshow .slide 
+{
+    float: left;
+    width: 20%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.slideshow .slide img 
+{
+    width: 70%;
+    margin: 0px auto;
+    /*transition: opacity .275s;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+}
+.slideshow .slide img:hover 
+{
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.slideshowX1 
+{
+    float: left;
+    display: none !important;
+    width: calc(100% - 50px) !important;
+    margin-left: 25px;
+}
+.slideshowX1 .slide 
+{
+    float: left;
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.slideshowX1 .slide img 
+{
+    width: 70%;
+    margin: 0px auto;
+    /*transition: opacity .275s;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+}
+@media screen and (max-width: 500px) 
+{
+    .slideshowX1 
+    {
+        float: left;
+        width: 100%;
+        display: block !important;
     }
 }
 /* =====================================  Location Style  ================================== */
@@ -1124,159 +1126,50 @@ header .header-nav .nav-item ul li a:hover
         transform: translate(-50%, -50%);
     }
 }
-/* ===================================== NetWork Link CSS ================================== */
-.contenedorMesa 
+
+/*====================================medidas para moviles================================*/
+.fondo-slider
 {
-    width: 280px;
-    height: 170px;
-    position: fixed;
-    right: 0px;
-    bottom: 0px;
-    z-index: 4;
-    display: none;
-    cursor: pointer;
-}
-.botonF1 
-{
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    background: #fff;
-    right: 0;
-    bottom: 0;
-    margin-right: 16px;
-    margin-bottom: 16px;
-    border: none;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.16), 0 3px 4px rgba(0, 0, 0, 0.23);
-    padding: 5px;
-    outline: none !important;
-    z-index: 4;
-}
-.botonF1 img 
-{
-    width: 40px;
-    height: 40px;
-}
-.btnMesa 
-{
-    width: 250px;
-    border-radius: 3px;
-    border: none;
-    columns: #666666;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
-    font-size: 16px;
-    outline: none;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin-right: 26px;
-    z-index: 4;
-}
-.btnMesa span a 
-{
-    display: block;
+    float: left;
     width: 100%;
-    color: #666;
-    padding: 10px 0px;
+    height: auto;
+    position: relative;
 }
-.botonF2 
+.fondo-slider .img-fondo
 {
-    background: #fff;
-    color: #666;
-    margin-bottom: 85px;
-    transition: 0.5s;
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
 }
-.botonF3 
+.fondo-slider .img-panel4
 {
-    background: #fff;
-    color: #666;
-    margin-bottom: 130px;
-    transition: 0.7s;
+    width: 210px;
+    float: right;
+    margin-top: -250px;
+    z-index: 3;
+    position: relative;
 }
-.botonF4 
-{
-    background: #fff;
-    color: #666;
-    margin-bottom: 175px;
-    transition: 0.9s;
+@media (max-width: 1550px) 
+{    
+    .fondo-slider .img-panel4
+    {
+        display: none;
+    }
 }
-.botonF5 
-{
-    background: #fff;
-    color: #666;
-    margin-bottom: 220px;
-    transition: 0.99s;
-}
-.animacionVer 
-{
-    display: block;
-}
-.whatsapbuttom 
-{
-    position: fixed;
-    line-height: 50px;
-    z-index: 2;
-    width: 50px;
-    height: 50px;
-    left: 25px;
-    bottom: 20px;
-    background-color: #91bf3d;
-    color: #fff;
-    border-radius: 50%;
-    opacity: 1;
-    transition: background-color 0.5s linear;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
-    animation: 3s ease 0s normal forwards 1 fadein;
-}
-.whatsapbuttom:hover 
-{
-    background-color: #70a114;
-    transition: background-color 0.5s linear;
-    color: white !important;
-}
-.whatsapbuttom:visited,
-.whatsapbuttom:active,
-.whatsapbuttom:link 
-{
-    color: white !important;
-}
-.messangerbuttom 
-{
-    position: fixed;
-    line-height: 50px;
-    z-index: 2;
-    width: 50px;
-    height: 50px;
-    left: 20px;
-    bottom: 90px;
-    color: #fff;
-    border-radius: 50%;
-    opacity: 1;
-    transition: background-color 0.5s linear;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
-    animation: 3s ease 0s normal forwards 1 fadein;
-}
-.messangerbuttom:hover 
-{
-    transition: background-color 0.5s linear;
-    color: white !important;
-}
-.messangerbuttom:visited,
-.messangerbuttom:active,
-.messangerbuttom:link 
-{
-    color: white !important;
-}
-/* ===================================== Politics CSS ================================== */
 /* ===================================== Slider Animation CSS ================================== */
 /*-- /reset code --*/
 .pogoSlider-slide-element 
 {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-    text-align: center;
-    height: inherit;
+    float: left;
+    height: auto;
+}
+.pogoSlider .container1
+{
+    float: left;
 }
 .container-text-slider 
 {
@@ -1285,13 +1178,13 @@ header .header-nav .nav-item ul li a:hover
     float: left;
     display: flex;
     z-index: 4;
-    margin-top: 10%;
+    margin-top: 7%;
+    height: auto;
 }
 .transparencia
 {
     float: left;
     width: 20%;
-    height: 350px;
     background: rgb(255,164,2,0.73);
     z-index: 4;
 }
@@ -1305,16 +1198,13 @@ header .header-nav .nav-item ul li a:hover
     display: flex;
     align-items: center;
     z-index: 4;
+    padding: 40px 0px;
 }
-.contiene-titular
-{
-    
-}
-.container-img-slider 
+.container-img-slider
 {
     width: 70%;
+    height: auto;
     float: left;
-    overflow: inherit;
 }
 .pogoSlider-slide-element .decoration 
 {
@@ -1336,85 +1226,13 @@ header .header-nav .nav-item ul li a:hover
     padding: 0px;    
     padding: 0px 0px 0px 40px;
     margin: 0px;
-    font-weight: bold;    
-    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 .pogoSlider-slide-element .img-slider 
 {
-    display: flex;
+    float: left;
     width: 100%;
     height: auto;
-}
-.pogoSlider-slide-element p 
-{
-    float: left;
-    color: #fff !important;
-    font-size: 20px;
-    text-align: left;
-    width: 70%;
-    padding: 10px 0px 0px 0px;
-    line-height: 28px;
-    margin: 0px;
-}
-.pogoSlider-slide-element ul.banner-agileits 
-{
-    padding-top: 30px;
-    text-align: left;
-    float: left;
-}
-.pogoSlider-slide-element ul.banner-agileits li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 5px;
-    width: 100%;
-    margin-bottom: 15px;
-}
-.pogoSlider-slide-element ul.banner-agileits li a.link-w3l1 {
-    width: 170px;
-    text-decoration: none;
-    padding: 5px 0px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    background: #f9b233;
-    display: inline-block;
-    border: 2px solid #f9b233;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border: solid 2px white;
-    background-image: url("../images/derecha.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.pogoSlider-slide-element ul.banner-agileits li a.link-w3l1:hover {
-    background: none;
-    color: white;
-    background-image: url("../images/derecha.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 {
-    width: 220px;
-    text-decoration: none;
-    padding: 5px 0px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    border: solid 2px white;
-    display: inline-block;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-    background-image: url("../images/derecha.svg");
-    background-repeat: no-repeat;
-    background-position: right;
 }
 .btn 
 {
@@ -1426,349 +1244,14 @@ header .header-nav .nav-item ul li a:hover
 /*-- /banner section --*/
 /*====================================medidas para pc medium================================*/
 @media (max-width: 1680px) 
-{
-    .pogoSlider {
-        width:80%;
-        position:relative;
-        position: absolute;
-    }
-    .container-text-slider 
-    {
-        width: 50%;
-        float: left;
-    }
+{    
     .pogoSlider-slide-element h3 
     {
-        font-size: 48px;
-        line-height: 48px;
-        text-align: left;
+        font-size: 40px;
+        line-height: 40px;
         padding-bottom: 0;
         z-index: 6;
     }
-    .pogoSlider-slide-element ul.banner-agileits 
-    {
-        padding-top: 10px;
-        text-align: left;
-    }
-}
-@media (max-width: 1680px) 
-{
-    .banner-agileits li 
-    {
-        width: 100%;
-        padding: 0px;
-    }
-    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1,
-    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 
-    {
-        margin-left: 0%;
-        display: block;
-        float: left;
-        margin-bottom: 5px;
-    }
-}
-/*====================================medidas para moviles================================*/
-.fondo-slider
-{
-    width: 100%;
-    height: 900px;
-    position: relative;
-}
-.fondo-slider .img-fondo
-{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
-}
-.fondo-slider .img-panel4
-{
-    width: 210px;
-    float: right;
-    margin-top: -250px;
-    z-index: 3;
-    position: relative;
-}
-@media (max-width: 1500px) 
-{
-    .fondo-slider
-    {
-        width: 100%;
-        height: 700px;
-        position: relative;
-    }
-    .fondo-slider .img-fondo
-    {
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
-    .fondo-slider .img-panel4
-    {
-        width: 170px;
-        height: auto;
-        float: right;
-        margin-top: -170px;
-        z-index: 3;
-        position: relative;
-    }
-}
-@media (max-width: 500px) 
-{
-    .container-text-slider 
-    {
-        width: 50%;
-        float: left;
-        padding: 15px 0px 0px;
-    }
-    .pogoSlider-slide-element h3 
-    {
-        font-size: 30px;
-        line-height: 30px;
-        padding: 0px 0px 0px;
-        text-align: center;
-        font-weight: normal;
-    }
-    .pogoSlider-slide-element ul.banner-agileits 
-    {
-        padding-top: 10px;
-        text-align: center;
-    }
-    .banner-agileits li 
-    {
-        width: 100%;
-        padding: 0px;
-    }
-    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1,
-    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 
-    {
-        width: 80% !important;
-        margin-left: 10%;
-        line-height: 30px;
-        font-size: 14px;
-        display: block;
-        float: left;
-        margin-bottom: 5px;
-    }
-    .container-img-slider 
-    {
-        float: left;
-        width: 50%;
-        height: auto;
-    }
-    .container-img-slider .img-slider 
-    {
-        width: 100%;
-        height: auto;
-        margin: 0px;
-    }
-    .col-lg-4.col-md-4.col-sm-6.serv-agileinfo2 
-    {
-        padding-top: 0px;
-        width: 100%;
-    }
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree4 
-    {
-        width: 100%;
-    }
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree4 
-    {
-        width: 50%;
-        margin: 0 auto;
-        float: none;
-    }
-    .col-lg-4.col-md-4.col-sm-6.serv-agileinfo3 
-    {
-        width: 100%;
-    }
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree6 
-    {
-        padding-bottom: 0px;
-    }
-    .col-lg-4.col-md-4.col-sm-6.col-xs-12.footer-agile1 
-    {
-        padding-bottom: 30px;
-    }
-    .col-lg-4.col-md-4.col-sm-12.col-xs-12 
-    {
-        text-align: center;
-    }
-    ul.link-w3l.cl-effect-21 
-    {
-        text-align: center;
-    }
-}
-@media (max-width: 823px) 
-{    
-    .pogoSlider-slide-element .decoration 
-    {
-        float: none;
-        width: 90px;
-        padding: 0px;
-        margin: 0px;
-        margin-bottom: 40px;
-    }
-    .pogoSlider-slide-element h3 
-    {
-        float: left;      
-        text-align: left;
-        width: 90%;
-        letter-spacing: 3px;
-        padding: 0px;
-        margin: 0px;
-        margin-left: 5%;
-        font-weight: 800;
-    }
-    .pogoSlider-slide-element p 
-    {
-        float: left;
-        color: #fff !important;
-        font-size: 28px;
-        text-align: center;
-        width: 90%;
-        padding: 10px 0px 0px 0px;
-        line-height: 28px;
-        margin: 0px;
-        margin-left: 5%;
-    }
-}
-@media (max-width: 736px) 
-{
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree1,
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree2,
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree3,
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree4,
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree6 
-    {
-        padding-bottom: 40px;
-    }
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree5 
-    {
-        padding-bottom: 0;
-    }
-    .col-lg-12.col-md-12.col-sm-6.serv-wthree4 
-    {
-        width: 100%;
-    }
-    section.footer-w3 input#email2 
-    {
-        width: 70%;
-    }
-    section.footer-w3 button.btn.btn-outline.btn-lg 
-    {
-        width: 30%;
-    }
-    section.footer-w3 ul.tweet-agile li p.tweet-p1 
-    {
-        margin: -48px 0 20px 44px;
-    }
-}
-/*=================Dispositivos moviles verticales < 639px==================================*/
-@media (max-width: 639px) 
-{
-    .container-text-slider 
-    {
-        width: 100%;
-        float: left;
-    }
-    .pogoSlider-slide-element h3 
-    {        
-        padding: 0px 0px 0px;
-    }
-    .container-img-slider 
-    {
-        display: block;
-        width: 100%;
-        height: auto;
-    }
-    .container-img-slider .img-slider 
-    {
-        display: block;
-        width: 70%;
-        height: auto;
-        margin: 20px auto;
-    }
-    .banner-agileits li 
-    {
-        width: 100%;
-        padding: 0px;
-    }
-    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1,
-    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 
-    {
-        width: 80% !important;
-        margin-left: 10%;
-        line-height: 30px;
-        font-size: 14px;
-        display: block;
-        float: left;
-    }
-}
-@media (max-width: 500px) 
-{
-    .fondo-slider
-    {
-        width: 100%;
-        height: 600px;
-        position: relative;
-    }
-    .fondo-slider img
-    {
-        width: 100%;
-        height: 100%;
-        position: relative;
-    }
-}
-@media (max-width: 400px) 
-{
-    .container-text-slider 
-    {
-        width: 100%;
-        float: left;
-    }
-    .pogoSlider-slide-element h3 
-    {
-        font-size: 45px;
-        line-height: 45px;
-        padding: 0px 0px 0px;
-    }
-    .banner-agileits li 
-    {
-        width: 100%;
-    }
-    .container-img-slider 
-    {
-        display: block;
-        width: 100%;
-        height: auto;
-        display: none;
-    }
-    .container-img-slider .img-slider 
-    {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin: 0px;
-    }
-}
-@media (max-width: 343px) 
-{
-    .pogoSlider-slide-element h3 
-    {
-        font-size: 22px;
-        line-height: 30px;
-        padding: 0px 0px 0px;
-    }
-}
-#modal-imagen 
-{
-        float: left;
-        width: 90%;
-        max-height: 600px;
-}
-#content-modal-subtitle 
-{
-    float: left;
 }
 /**********************Que es BeeAgri********************************/
 #quees
@@ -1777,7 +1260,7 @@ header .header-nav .nav-item ul li a:hover
     z-index: 2;
     width: 100%;
     height: auto;
-    padding: 0px 0px 9%;
+    padding: 0px 0px 7%;
 }
 #quees .izquierda
 {    
@@ -2398,4 +1881,148 @@ display: none;
         width: 100%;
         display: block !important;
     }
+}
+/* ===================================== NetWork Link CSS ================================== */
+.contenedorMesa 
+{
+    width: 280px;
+    height: 170px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    z-index: 4;
+    display: none;
+    cursor: pointer;
+}
+.botonF1 
+{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: #fff;
+    right: 0;
+    bottom: 0;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: none;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.16), 0 3px 4px rgba(0, 0, 0, 0.23);
+    padding: 5px;
+    outline: none !important;
+    z-index: 4;
+}
+.botonF1 img 
+{
+    width: 40px;
+    height: 40px;
+}
+.btnMesa 
+{
+    width: 250px;
+    border-radius: 3px;
+    border: none;
+    columns: #666666;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
+    font-size: 16px;
+    outline: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 26px;
+    z-index: 4;
+}
+.btnMesa span a 
+{
+    display: block;
+    width: 100%;
+    color: #666;
+    padding: 10px 0px;
+}
+.botonF2 
+{
+    background: #fff;
+    color: #666;
+    margin-bottom: 85px;
+    transition: 0.5s;
+}
+.botonF3 
+{
+    background: #fff;
+    color: #666;
+    margin-bottom: 130px;
+    transition: 0.7s;
+}
+.botonF4 
+{
+    background: #fff;
+    color: #666;
+    margin-bottom: 175px;
+    transition: 0.9s;
+}
+.botonF5 
+{
+    background: #fff;
+    color: #666;
+    margin-bottom: 220px;
+    transition: 0.99s;
+}
+.animacionVer 
+{
+    display: block;
+}
+.whatsapbuttom 
+{
+    position: fixed;
+    line-height: 50px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    bottom: 20px;
+    background-color: #91bf3d;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background-color 0.5s linear;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+.whatsapbuttom:hover 
+{
+    background-color: #70a114;
+    transition: background-color 0.5s linear;
+    color: white !important;
+}
+.whatsapbuttom:visited,
+.whatsapbuttom:active,
+.whatsapbuttom:link 
+{
+    color: white !important;
+}
+.messangerbuttom 
+{
+    position: fixed;
+    line-height: 50px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    bottom: 90px;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background-color 0.5s linear;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+.messangerbuttom:hover 
+{
+    transition: background-color 0.5s linear;
+    color: white !important;
+}
+.messangerbuttom:visited,
+.messangerbuttom:active,
+.messangerbuttom:link 
+{
+    color: white !important;
 }
