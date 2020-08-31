@@ -1422,6 +1422,8 @@ header .header-nav .nav-item ul li a:hover
     }
     #quees p
     {
+        font-size: 14px;
+        line-height: 18px;
         margin-bottom: 15px;
         text-align: center;
     }
@@ -1635,15 +1637,14 @@ display: none;
 #soporte .laptopBeeAgri
 {
     width: 750px;
-    margin: 0px auto 100px;
+    margin: 0px auto 8%;
 }
-#soporte h2
+.div-integraciones h2
 {
     width: 100%;
     text-align: right;
     font-size: 60px;
     font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
     color: #fff;
     margin-bottom: 5px;
 }
@@ -1668,13 +1669,7 @@ display: none;
 }
 @media (max-width: 768px)
 {
-    #soporte h2
-    {
-        font-size: 40px;
-        font-weight: 900;
-
-        padding: 40px 0px;
-    }
+    
     #soporte .dispositivos
     {
         display: none;
@@ -1700,7 +1695,7 @@ display: none;
 {
     float: left;
     width: 100%;
-    margin: 50px 0px 15%;
+    margin: 10% 0px 15%;
 }
 .reporte
 {
@@ -1751,18 +1746,18 @@ display: none;
     font-size: 187%;
     line-height: 133%;
     padding: 0px 0px 0px 40px;
+    margin: 0px;
 }
 #integraciones
 {
     width:100%;
-    margin:0px 0px 40px;
 }
 #integraciones .col-sm-12
 {
     display: flex;
     align-items: center;
 }
-#integraciones .col-sm-12 .div-integraciones
+.div-integraciones
 {
     margin: 0px auto;
     width:630px;
@@ -1774,13 +1769,12 @@ display: none;
     display: flex;
     font-size: 2rem;
 }
-#integraciones h2
+.div-integraciones h2
 {
     float: left;
     width:100%;   
     color: #f9b233;
-    line-height: 80px;
-    padding: 10px 0px 15px 0px;
+    padding: 15px 0px 15px 0px;
 }
 #integraciones img
 {
@@ -1788,19 +1782,28 @@ display: none;
     width: 50px;
     margin-top: 10px;
 }
-@media screen and (max-width: 500px) 
+@media screen and (max-width: 768px) 
 {
-    #integraciones .col-sm-12 .div-integraciones
+    #div-reportes
     {
-        margin: 0px auto;
-        width:80%;
-        height: 150px;
-        background: #EDEDED;
-        padding: 15px;
-        border-radius: 45px;
-        border-bottom: 4px #C5C9C9 solid;
-        margin:10px auto;
-        display: flex;
+        float: left;
+        width: 100%;
+    }
+    .div-integraciones
+    {
+        width:100%;
+    }
+    .div-integraciones h2
+    {
+        font-size: 40px;
+    }
+    #div-reportes p
+    {
+        width: 90%;
+        float: left;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px 0px 0px 40px;
     }
 }
 /*********************************Modulos*********************************/
