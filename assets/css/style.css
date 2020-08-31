@@ -480,7 +480,7 @@ header .header-nav .nav-item ul li a:hover
 }
 #nuestrosCLientes h2
 {
-    font-size: 625%;
+    font-size: 6.25em;
     line-height: 0.9em;
     text-align: right;
     color: #f9b233;
@@ -493,7 +493,7 @@ header .header-nav .nav-item ul li a:hover
 }
 #nuestrosCLientes p
 {
-    font-size: 187%;
+    font-size: 1.87em;
     line-height: 1.33em;
     text-align: left;
     margin-top: 185px;
@@ -502,7 +502,7 @@ header .header-nav .nav-item ul li a:hover
 {
     #nuestrosCLientes
     {
-        padding: 0px 20px 0px;
+        padding: 50px 20px;
     }
     #nuestrosCLientes .izquierda div
     {
@@ -513,6 +513,19 @@ header .header-nav .nav-item ul li a:hover
     {
         padding: 0px;
         font-size: 12px;
+    }
+    #nuestrosCLientes img
+    {
+        float: left;
+        width: 140px;
+        margin-bottom: 25px;
+    }
+    #nuestrosCLientes h2
+    {
+        font-size: 4.2em;
+        line-height: 0.9em;
+        text-align: left;
+        padding: 0px 0px 0px;
     }
     #nuestrosCLientes p
     {
@@ -1134,7 +1147,6 @@ header .header-nav .nav-item ul li a:hover
     width: 100%;
     height: auto;
     position: relative;
-    border: solid 2px red;
 }
 .fondo-slider .img-fondo
 {
@@ -1143,7 +1155,6 @@ header .header-nav .nav-item ul li a:hover
     height: 1031px;
     position: relative;
     z-index: 1;
-    border: cyan solid 3px;
 }
 .fondo-slider .img-panel4
 {
@@ -1157,48 +1168,35 @@ header .header-nav .nav-item ul li a:hover
 {    
     .fondo-slider .img-fondo
     {
-        float: left;
-        width: 100%;
         height: 840px;
-        position: relative;
-        z-index: 1;
-        border: cyan solid 3px;
     }
 }
 @media (max-width: 1200px) 
 {
     .fondo-slider .img-fondo
     {
-        float: left;
-        width: 100%;
         height: 680px;
-        position: relative;
-        z-index: 1;
-        border: cyan solid 3px;
     }
 }
 @media (max-width: 900px) 
 {
     .fondo-slider .img-fondo
     {
-        float: left;
-        width: 100%;
         height: 580px;
-        position: relative;
-        z-index: 1;
-        border: cyan solid 3px;
     }
 }
 @media (max-width: 700px) 
 {
     .fondo-slider .img-fondo
     {
-        float: left;
-        width: 100%;
         height: 350px;
-        position: relative;
-        z-index: 1;
-        border: cyan solid 3px;
+    }
+}
+@media (max-width: 550px)
+{
+    .fondo-slider .img-fondo
+    {
+        height: 250px;
     }
 }
 @media (max-width: 1700px) 
@@ -1329,8 +1327,20 @@ header .header-nav .nav-item ul li a:hover
 {    
     .pogoSlider-slide-element h3 
     {
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .contiene-titular
+    {
+        float: left;
+        width: 80%;
+        background: #fff;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        display: flex;
+        align-items: center;
+        z-index: 4;
+        padding: 15px 0px;
     }
 }
 /**********************Que es BeeAgri********************************/
@@ -1364,18 +1374,34 @@ header .header-nav .nav-item ul li a:hover
     width: 100%;
     font-size: 381%;
     margin-bottom: 20px;
-    font-weight: bold;    
-    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     color: #f9b233;
+    text-align: left;
 }
 #quees p
 {
     width: 100%;
-    font-size: 162%;
+    font-size: 1.62em;
     line-height: 1.231em;
     margin-bottom: 25px;
+    text-align: left;
 }
-@media (max-width: 768px)
+@media (max-width: 1300px)
+{
+    #quees h3
+    {
+        width: 100%;
+        font-size: 2.81em;
+        margin-bottom: 20px;
+    }
+    #quees p
+    {
+        font-size: 1.23em;
+        line-height: 1.23em;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px)
 {    
     #quees
     {        
@@ -1392,12 +1418,12 @@ header .header-nav .nav-item ul li a:hover
     }
     #quees h3
     {
-        width: 100%;        
-        padding-bottom: 0px;
+        text-align: center;
     }
     #quees p
     {
         margin-bottom: 15px;
+        text-align: center;
     }
 }
 @media (max-width: 1300px)
