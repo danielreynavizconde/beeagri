@@ -82,6 +82,14 @@
 	opacity:0;
 	justify-content: center;
 }
+@media (max-width: 550px) 
+{
+	.pogoSlider-slide
+	{
+		width:90%;
+		margin:0px 5%;		
+	}
+}
 .pogoSlider-loading
 {
 	position:absolute;
@@ -151,6 +159,15 @@
 	-ms-transform:rotate(45deg);
 	transform:rotate(45deg);
 	cursor:pointer;
+}
+@media (max-width: 550px) 
+{
+	.pogoSlider-dir-btn
+	{
+		
+		width:10px;
+		height:10px;		
+	}
 }
 .pogoSlider-dir-btn:hover
 {
