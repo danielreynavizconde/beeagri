@@ -146,6 +146,7 @@ header .header-nav {
 header .header-nav .nav-item ul 
 {
     float: right;
+    width: 100%;
 }
 @media screen and (max-width: 767px) 
 {
@@ -1148,7 +1149,7 @@ header .header-nav .nav-item ul li a:hover
     z-index: 2;
     width: 100%;
     height: auto;
-    padding: 0px 0px 7%;
+    padding: 90px 0px 90px;
 }
 #quees .izquierda
 {    
@@ -1159,7 +1160,7 @@ header .header-nav .nav-item ul li a:hover
 #quees img
 {
     float: left;
-    width: 90%;
+    width: 80%;
     margin: 0px auto;
 }
 #quees .derecha
@@ -1170,49 +1171,69 @@ header .header-nav .nav-item ul li a:hover
 #quees h3
 {
     width: 100%;
-    font-size: 381%;
+    font-size: 76px;
     margin-bottom: 20px;
     font-weight: bold;
-    color: #f9b233;
+    color: #FFA402;
     text-align: left;
 }
 #quees p
 {
     width: 100%;
-    font-size: 1.62em;
-    line-height: 1.231em;
-    margin-bottom: 25px;
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 20px;
     text-align: left;
+    padding:0px 60px;
 }
-@media (max-width: 1300px)
+@media (max-width: 1599px)
 {
     #quees h3
     {
-        width: 100%;
-        font-size: 2.81em;
-        margin-bottom: 20px;
+        font-size: 70px;
+        margin-bottom: 15px;
     }
     #quees p
     {
-        font-size: 1.23em;
-        line-height: 1.23em;
-        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 28x;
     }
 }
-@media (max-width: 767px)
+@media (max-width: 1299px)
+{
+    #quees h3
+    {
+        font-size: 42px;
+    }
+    #quees p
+    {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        padding:0px 40px;
+    }
+}
+@media (max-width: 901px)
 {    
     #quees
     {        
         padding: 50px 20px;
     }
+    #quees h3
+    {
+        font-size: 40px;
+    }
+    #quees p
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media (max-width: 767px)
+{
     #quees img
     {
-    margin-bottom: 30px;
-    }
-    #quees .derecha
-    {
-        display: flex;
-        align-items: center;
+    margin-bottom: 50px;
     }
     #quees h3
     {
@@ -1220,28 +1241,22 @@ header .header-nav .nav-item ul li a:hover
     }
     #quees p
     {
-        font-size: 14px;
-        line-height: 18px;
-        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: 24px;
         text-align: center;
+        padding:0px;
     }
 }
-@media (max-width: 1300px)
-{
-    #quees .derecha
+@media (max-width: 470px)
+{    
+    #quees h3
     {
-        display: flex;
-        align-items: center;
-        font-size: 12px;
+        font-size: 30px;
     }
-}
-@media (max-width: 768px)
-{
-    #quees .derecha
+    #quees p
     {
-        display: flex;
-        align-items: center;
-        font-size: 10px;
+        font-size: 16px;
+        line-height: 22px;
     }
 }
 .titulo-funcionalidades
