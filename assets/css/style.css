@@ -396,6 +396,25 @@ header .header-nav .nav-item ul li a:hover
     align-items: center;
     font-size:16px;
 }
+#SoporteyServicio h3
+{
+    width: 100%;
+    color: #fff;
+    border-left: solid #fff 20px;
+    font-size: 2.81em;
+    line-height: 1.11em;
+    margin: 0px;
+    padding: 0px 0px 0px 40px;
+    font-weight: bold;
+}
+#SoporteyServicio p
+{
+    width: 90%;
+    color: #fff;
+    padding: 0.8em 0px 0px 60px;
+    font-size: 26px;
+    line-height: 32px;
+}
 @media (max-width: 990px) 
 {
     #SoporteyServicio img
@@ -409,7 +428,6 @@ header .header-nav .nav-item ul li a:hover
     #SoporteyServicio .derecha
     {
         padding: 20px 20px 20px 20px;
-        font-size:14px;
     }
     #SoporteyServicio .abeja3
     {
@@ -429,33 +447,28 @@ header .header-nav .nav-item ul li a:hover
     }
     #SoporteyServicio .derecha
     {
-        padding: 20px 20px 20px 20px;
-        font-size:12px;
+        padding: 0px 20px 20px 20px;
     }
     #SoporteyServicio .abeja3
     {
         width: 100px;
         margin-top: -40px;
     }
-}
-#SoporteyServicio h3
-{
-    width: 100%;
-    color: #fff;
-    border-left: solid #fff 20px;
-    font-size: 2.81em;
-    line-height: 1.11em;
-    margin: 0px;
-    padding: 0px 0px 0px 40px;
-    font-weight: bold;
-}
-#SoporteyServicio p
-{
-    width: 90%;
-    color: #fff;
-    padding: 0.8em 0px 0px 60px;
-    font-size: 1.42em;
-    line-height: 1.11em;
+    #SoporteyServicio h3
+    {
+        border-left: solid #fff 15px;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0px 0px 0px 20px;
+    }
+    #SoporteyServicio p
+    {
+        width: 100%;
+        color: #fff;
+        padding: 0.8em 0px 0px 34px;
+        font-size: 16px;
+        line-height: 18px;
+    }
 }
 /* =====================================  Nuestros Clientes  ================================== */
 #nuestrosCLientes
@@ -1298,6 +1311,7 @@ header .header-nav .nav-item ul li a:hover
         font-size: 10px;
     }
 }
+
 #mockup-phones
 {
     float: left;
@@ -1341,13 +1355,12 @@ display: none;
     height: 100%;
     color: #fff;
     float: left;
-    padding: 70px;
+    padding: 60px 100px;
 }
 #mockup-phones ul li
 {
     width: 100%;
-    padding: 2px 0px;
-    font-size: 237%;
+    font-size: 47px;
     background-image: url('../images/hexagono.svg');
     background-repeat: no-repeat;
     background-size: initial;
@@ -1365,6 +1378,34 @@ display: none;
     position: relative;
     }
 }
+@media (max-width: 1299px)
+{
+    #mockup-phones ul
+    {        
+        padding: 50px 70px;
+    }
+    #mockup-phones ul li
+    {
+        width: 100%;
+        font-size: 27px;
+        background-image: url('../images/hexagono.svg');
+        background-repeat: no-repeat;
+        background-size: initial;
+        background-position: left;
+        padding-left: 30px;
+    }
+}
+@media (max-width: 900px) 
+{        
+    #mockup-phones ul
+    {        
+    }
+    #mockup-phones .panel2
+    {
+    display: none;
+    }
+}
+
 @media (max-width: 768px) 
 {    
     #mockup-phones .fondo-amarillo
@@ -1372,43 +1413,18 @@ display: none;
         margin: 0px 20px;
     }
     #mockup-phones ul
-    {        
-        padding: 20px 5px;
+    {
+        padding: 30px 50px;        
     }
     #mockup-phones ul li
     {
         width: 100%;
-        padding: 2px 0px;
-        background-image: url('../images/hexagono.svg');
-        background-repeat: no-repeat;
-        background-size: initial;
-        background-position: left;
-        padding-left: 30px;
-    }
-    
+        font-size: 18px;
+        padding-left: 20px;
+    }    
 }
-@media (max-width: 1300px) 
-{        
-    #mockup-phones ul
-    {        
-        padding: 20px 5px;
-        font-size: 14px;
-    }
-}
-@media (max-width: 900px) 
-{        
-    #mockup-phones ul
-    {        
-        padding: 20px 5px;
-        font-size: 10px;
-    }
-    #mockup-phones .panel2
-    {
-    display: none;
-    }
-}
-@media (max-width: 500px) 
-{        
+@media (max-width: 527px)
+{
     #mockup-phones
     {       
         background-image: url("../images/fondo-div-2-min.png");
@@ -1416,10 +1432,17 @@ display: none;
         background-size: contain;
         background-color: #ffffff;
     }
+    #mockup-phones .fondo-amarillo
+    {
+        border-radius: 30px;
+    }
     #mockup-phones ul
     {        
-        padding: 20px 15px;
-        font-size: 7px;
+        padding: 15px 15px;
+    }
+    #mockup-phones ul li
+    {
+        font-size: 16px;
     }
 }
 #soporte
