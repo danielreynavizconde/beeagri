@@ -1,0 +1,1092 @@
+/***************************************Loading page************************************/
+.jm-loadingpage {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999999;
+}
+.jm-loadingpage img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 200px;
+    height: auto;
+    z-index: 999999999999999;
+}
+.lottie-player {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 736px) {
+    .jm-loadingpage img {
+        width: 100px;
+    }
+}
+/* ===================================== CSS Basico ================================== */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body 
+{
+    background: #F5F6FA;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+/* =======================================css basicos ================================= */
+a {
+    text-decoration: none;
+    outline: none;
+}
+a:hover,
+a:focus,
+input,
+textarea {
+    text-decoration: none;
+    outline: none;
+}
+h2,
+h3,
+h4,
+h5,
+p,
+label {
+    color: #878787;
+    margin: 0px;
+    padding: 0px;
+}
+.fondo-degradado
+{
+    background: rgb(100,181,44);
+    background: linear-gradient(90deg, rgba(100,181,44,1) 0%, rgba(0,153,209,1) 51%, rgba(0,204,219,1) 100%);
+}
+/***************************************Loading page************************************/
+.jm-loadingpage {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999999;
+}
+.jm-loadingpage img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 200px;
+    height: auto;
+    z-index: 999999999999999;
+}
+.lottie-player {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 736px) {
+    .jm-loadingpage img {
+        width: 100px;
+    }
+}
+/* ===========*********************** Header Style ***************================= */
+
+header {
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    position: absolute;
+}
+header .header-nav {
+    width: 100%;
+    padding: 50px 0px;
+}
+@media screen and (max-width: 1550px) 
+{
+    header .header-nav {
+        background-image:none;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    header .header-nav {
+        padding: 0px 0px;
+    }
+}
+.logo-img 
+{
+    width: auto !important;
+    height: 70px !important;
+}
+.logo-yapu 
+{
+    width: auto !important;
+    height: 70px !important;
+}
+.logo-xps
+{
+    height: 50px !important;
+    margin-top:5px;
+}
+header .header-nav .nav-item ul 
+{
+    float: right;
+    width: 100%;
+}
+@media screen and (max-width: 767px) 
+{
+    .logo-img {
+        border-right: 0px #fff solid;
+    }
+    .logos-empresa
+    {
+        display: none;
+    }
+    header .header-nav .nav-item ul 
+    {
+        width: 100%;
+        border-bottom: solid 5px #8c8c8c;
+    }
+}
+header .header-nav .nav-item ul li 
+{
+    float: left;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) 
+{
+    header .header-nav .nav-item ul li 
+    {
+        float: none;
+    }
+    header .header-nav .nav-item ul li a 
+    {
+        padding: 20px 10px;
+    }
+}
+header .header-nav .nav-item ul li a 
+{
+    color: #ffffff;
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: solid 1px #fff;
+    font-weight: bold;
+}
+@media screen and (max-width: 767px) 
+{
+    .logo-img 
+    {
+        margin: 15px 15px;
+        height: 40px !important;
+    }
+    header .header-nav .nav-item ul li a 
+    {
+        border-radius: 0px;
+        padding: 20px 20px;
+    }
+}
+.small-menu 
+{
+    float: right;
+    color: #fff;
+    font-size: 34px;
+    margin-top: 0px;
+    padding: 17px;
+}
+.scroll-to-fixed-fixed 
+{
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 0px;
+}
+.scroll-to-fixed-fixed .small-menu 
+{
+    margin-top: -60px;
+    color: #666;
+}
+.scroll-to-fixed-fixed .header-nav 
+{
+    background-color: #fff;
+}
+.scroll-to-fixed-fixed .header-nav ul li a 
+{
+    color: #666 !important;
+}
+.scroll-to-fixed-fixed .network-link i 
+{
+    color: #666 !important;
+}
+.scroll-to-fixed-fixed .header-nav .lob 
+{
+    display: block;
+}
+.scroll-to-fixed-fixed .header-nav .lo 
+{
+    display: none;
+}
+.collapse.show 
+{
+    display: block !important;
+    background: #fff;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.collapse.show .enlaces-menu 
+{
+    color: #666;
+}
+.flag-lang {
+    height: 14px;
+    width: 14px;
+}
+.theme-btn {
+    display: inline-block;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    border-width: 2px !important;
+    color: #ffffff;
+}
+.btn-success {
+    color: white;
+    width: 100%;
+}
+.btn-style-two {
+    position: relative;
+    padding: 6px 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: none;
+    color: #ffffff;
+    border: 2px solid #f9b233;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.btn-style-two:hover {
+    background: #f9b233;
+    color: #ffffff;
+}
+.btn-style-one {
+    position: relative;
+    padding: 6px 30px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #f9b233;
+    color: #ffffff;
+    border: 2px solid #f9b233;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.btn-style-one:hover 
+{
+    background: none;
+    color: #f9b233;
+}
+.logo-sgs 
+{
+    width: 130px;
+    display: block;
+    margin: 0px auto;
+}
+.logo-yapu-politica {
+    width: 170px;
+    display: block;
+    margin: 0px auto;
+}
+.numeros {
+    display: block;
+}
+.numeros-h {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .numeros {
+        display: none;
+    }
+    .numeros-h {
+        display: block;
+        margin: 30px 0px;
+    }
+}
+/* ============================================================================ */
+#video
+{
+    margin: 100px 0px 0px;
+}
+#video .row
+{
+    background: #6BBB2A;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#video img
+{
+    width: 100%;
+}
+#video .slideshowX1 
+{
+margin: -20px 0px;
+width: 100% !important;
+}
+#video .container .row .izquierda .slideshowX1 button
+{
+    display: none !important;
+}
+#video .derecha
+{
+    display: flex;
+    align-items: center;
+    background-image: url("../img/wcare-marca-de-agua.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+#video h3
+{
+    font-size: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+#video .linea
+{
+    display: block;
+    width: 110px;
+    height: 10px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 15px 0px;
+}
+/* ============================================================================ */
+#quees
+{
+    padding: 100px 0px;
+}
+#quees img
+{
+    width: 90%;
+    margin: 0px 5%;
+}
+#quees .derecha
+{
+    display: flex;
+    align-items: center;
+}
+#quees h3
+{
+    color: #009BDE;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: bold;
+}
+#quees .linea
+{
+    display: block;
+    width: 160px;
+    height: 10px;
+    border-radius: 5px;
+    background: #009BDE;
+    margin: 15px 0px;
+}
+#quees p
+{
+    color: #8F8F8F;
+    font-size: 24px;
+    line-height: 26px;
+}
+/* ============================================================================ */
+#Beneficios
+{
+    background: rgb(100,181,44);
+    background: linear-gradient(90deg, rgba(100,181,44,1) 0%, rgba(0,153,209,1) 51%, rgba(0,204,219,1) 100%);
+}
+#Beneficios .derecha
+{
+    display: flex;
+    align-items: center;
+    padding:0px 50px;
+}
+#Beneficios img
+{
+    width: 100%;
+}
+#Beneficios h3
+{
+    width: 100%;
+    color: #fff;
+    font-size: 50px;
+    line-height: 40px;
+    margin: 0px;
+    font-weight: bold;
+}
+#Beneficios p
+{
+    width: 100%;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    font-size: 24px;
+    line-height: 28px;
+}
+#Beneficios a
+{
+    float: left;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 50px;
+    border: solid 1px white;
+    font-weight: bold;
+}
+/* ============================================================================ */
+#Caracteristicas
+{
+    padding: 100px 0px;
+}
+#Caracteristicas img
+{
+    display: block;
+    height: 150px;
+    margin: 0px auto 30px;
+}
+#Caracteristicas h2
+{
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #9D9D9D;
+}
+/* =====================================  Pricing Style  ================================== */
+.pricing 
+{
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 70px 0px;
+    background: #EEEFF3;
+}
+.pricing h2
+{
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    margin: 0px;
+    padding: 30px 0px;
+    color: #009BDE;
+    font-size: 50px;
+    text-align: center;
+}
+.pricing h2 img
+{
+    width: 120px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 30px 20px;
+}
+.slideshowX1 
+{
+    float: left;
+    width: calc(100% - 50px) !important;
+    margin-left: 25px;
+}
+.slideshowX1 .slide 
+{
+    float: left;
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.slideshowX1 .slide div 
+{
+    width: max-content;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    padding: 15px  20px;
+    border-radius: 40px;
+    background: #EAEAEA;
+    border-bottom: #9D9D9D 2px solid;
+    margin:0px auto 50px;
+    display: flex;
+    align-items: center;
+}
+.slideshowX1 .slide div img
+{
+    margin-right: 20px;
+}
+.slideshowX1 .slide div h3
+{
+    color: #009BDE;
+    font-weight: bold;
+    font-size: 30px;
+}
+.slideshowX1 .slide p 
+{
+    width: 90%;
+    margin: 0px auto;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.slideshowX1 .slide b 
+{
+    width: 90%;
+    margin: 0px auto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #009BDE;
+}
+.slideshowX1 .slide ul 
+{
+    width: max-content;
+    margin: 0px auto;
+}
+.slideshowX1 .slide ul li 
+{
+    width: max-content;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: left;
+    color: #878787;
+}
+.slideshowX1 .slide ul li::before 
+{
+    content: "\2022";
+    color: #009BDE;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+/* ============================================================================ */
+#SoporteyServicio
+{
+    float: left;
+    width: 100%;
+    background-color: #009BDE;
+    color: #fff;
+    padding: 0px 20px;
+}
+#SoporteyServicio .div-SoporteYServicio
+{
+    border-radius: 50px;
+}
+#SoporteyServicio img
+{
+    width: 100%;
+    height: auto;
+}
+#SoporteyServicio .abeja3
+{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-top: -120px;    
+    margin-bottom: -0%;
+    margin-left: 0%;
+}
+#SoporteyServicio .derecha
+{
+    padding: 15px 0px 15px 50px;
+    display: flex;
+    align-items: center;
+    font-size:16px;
+    background-image: url("../img/wcare-marca-de-agua.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+#SoporteyServicio h3
+{
+    width: 100%;
+    color: #fff;
+    border-left: solid #fff 20px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0px;
+    padding: 0px 0px 0px 40px;
+    font-weight: bold;
+}
+#SoporteyServicio p
+{
+    width: 100%;
+    color: #fff;
+    padding: 15px 0px 0px 60px;
+    font-size: 22px;
+    line-height: 26px;
+}
+@media (max-width: 990px) 
+{
+    #SoporteyServicio img
+    {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;    
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+    #SoporteyServicio .derecha
+    {
+        padding: 20px 20px 20px 20px;
+    }
+    #SoporteyServicio .abeja3
+    {
+        width: 100px;
+        margin-top: -40px;
+    }
+}
+@media (max-width: 768px)
+{
+    #SoporteyServicio img
+    {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;    
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+    #SoporteyServicio .derecha
+    {
+        padding: 0px 20px 20px 20px;
+    }
+    #SoporteyServicio .abeja3
+    {
+        width: 100px;
+        margin-top: -40px;
+    }
+    #SoporteyServicio h3
+    {
+        border-left: solid #fff 15px;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0px 0px 0px 20px;
+    }
+    #SoporteyServicio p
+    {
+        width: 100%;
+        color: #fff;
+        padding: 0.8em 0px 0px 34px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+/* =====================================  Nuestros Clientes  ================================== */
+#nuestrosCLientes
+{
+    float: left;
+    width: 100%;
+    padding: 100px 20px 100px;
+    background: #fff;;
+}
+#nuestrosCLientes .izquierda
+{
+    float: left;
+}
+#nuestrosCLientes .izquierda div
+{
+    float: left;
+}
+#nuestrosCLientes img
+{
+    float: right;
+    width: 140px;
+    margin-bottom: 40px;
+    margin-right: 70px;
+}
+.div-nuestrosClientes
+{
+    float: left;
+    padding-right: 70px;
+    border-right: solid 2px #009BDE;
+}
+#nuestrosCLientes h2
+{
+    font-size: 90px;
+    line-height: 80px;
+    text-align: right;
+    color: #009BDE;
+    font-weight: bold;
+    padding: 0px 0px 15px;
+}
+#nuestrosCLientes .derecha
+{
+    padding-left: 70px;
+}
+#nuestrosCLientes p
+{
+    font-size: 28px;
+    line-height: 34px;
+    text-align: left;
+    margin-top: 185px;
+}
+@media (max-width: 1599px)
+{
+    #nuestrosCLientes p
+    {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        margin-top: 185px;
+    }
+}
+@media (max-width: 1299px)
+{
+    #nuestrosCLientes p
+    {
+        font-size: 24px;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 185px;
+    }
+}
+@media screen and (max-width: 500px) 
+{
+    #nuestrosCLientes
+    {
+        padding: 50px 20px;
+    }
+    #nuestrosCLientes .izquierda div
+    {
+        float: left;
+        font-size: 8px;
+    }
+    #nuestrosCLientes .derecha
+    {
+        padding: 0px;
+        font-size: 12px;
+    }
+    #nuestrosCLientes img
+    {
+        float: none;
+        display: block;
+        width: 140px;
+        margin-right: 0px;
+        margin: 0px auto 25px;
+    }
+    #nuestrosClientes .div-nuestrosClientes
+    {
+        border-right: solid 3px #f9b233;
+        padding-right: 0px;
+    }
+    #nuestrosCLientes h2
+    {
+        width: 100%;
+        font-size: 4.2em;
+        line-height: 0.9em;
+        text-align: center;
+        padding: 0px 0px 0px;
+    }
+    #nuestrosCLientes p
+    {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+/* ======================================================== */
+/* =========================== Boton Whatsapp=============================== */
+.whatsapbuttom 
+{
+    position: fixed;
+    line-height: 50px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    left: 25px;
+    bottom: 20px;
+    background-color: #91bf3d;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background-color 0.5s linear;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+.whatsapbuttom:hover 
+{
+    background-color: #70a114;
+    transition: background-color 0.5s linear;
+    color: white !important;
+}
+.whatsapbuttom:visited,
+.whatsapbuttom:active,
+.whatsapbuttom:link 
+{
+    color: white !important;
+}
+.messangerbuttom 
+{
+    position: fixed;
+    line-height: 50px;
+    z-index: 2;
+    width: 50px;
+    height: 50px;
+    left: 20px;
+    bottom: 90px;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background-color 0.5s linear;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .15);
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
+.messangerbuttom:hover 
+{
+    transition: background-color 0.5s linear;
+    color: white !important;
+}
+.messangerbuttom:visited,
+.messangerbuttom:active,
+.messangerbuttom:link 
+{
+    color: white !important;
+}
+/*===============================================================*/
+/*============================*/
+.contact-us-single 
+{
+    background-color: #f7f7f7;
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 50px 0px 50px;
+}
+.enviar
+{
+    width: 100%;
+}
+.contact-us-single .cop-ck {
+    padding: 20px 30px;
+}
+
+.form-control
+{
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+/* =====================================  Contat Us Style  ================================== */
+.contact-us {
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
+    background: #ffffff !important;
+}
+
+#contact .sec-title {
+    background-image: url("../images/titles/verde.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#contact h2 {
+    
+    font-weight: bold;
+    padding: 0px;
+    color: #1C9FE0;
+    text-align: left;
+    font-size: 42px;
+    line-height: 60px;
+}
+#contact span
+{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0px 0px;
+    color: #1C9FE0;
+    font-weight: bold;
+}
+#contact h3
+{
+    font-size: 24px;
+    line-height: 24px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+    #contact h2 {    
+        padding: 50px 0px 0px 0px;        
+        font-size: 35px;
+        line-height: 45px;
+    }
+    #contact span
+    {
+        font-size: 24px;
+        margin:10px 0px;
+        width: 100%;
+        float: left;
+    }
+}
+.contact-us .contat-det {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.contact-us .contat-det img {
+    float: left;
+    max-width: 60px;
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+.contact-us .contat-det p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 16px;
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+}
+
+.contact-us .contat-det p b {
+    float: left;
+    font-size: 18px !important;
+    color: #1C9FE0;
+    padding-bottom: 5px;
+    width: auto;
+}
+
+@media (max-width: 736px) {
+    .contact-us .contat-det {
+        margin-bottom: 20px;
+    }
+    .contact-us .contat-det {        
+        padding-left: 50px;
+    }
+}
+
+
+/*============================*/
+
+.contact-us2 {
+    overflow: hidden;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 50px 0px 50px 0px;
+    background: #ffffff !important;
+}
+
+.contact-us2 .contat-det {
+    padding: 20px 0px;
+}
+
+.contact-us2 .contat-det img {
+    float: left;
+    width: 80px;
+    max-width: 80px;
+    max-height: 70px;
+    margin-right: 15px;
+}
+
+.contact-us2 .contat-det p {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    margin-left: 10px;
+    display: flex;
+    line-height: 20px;
+}
+
+.contact-us2 .contat-det p b {
+    float: left;
+    font-size: 20px !important;
+    color: #1C9FE0;
+    padding-bottom: 5px;
+    width: auto;
+}
+
+/* ===================================== Copright ================================== */
+.copy 
+{
+    float: left;
+    width: 100%;
+    padding: 30px 0px;
+}
+.copy .centra-logos 
+{
+    display: flex;
+    width: max-content;
+    margin: 0px auto;
+}
+.copy img 
+{
+    display: inline-block;
+    width: auto;
+    height: 90px;
+    margin-right: 30px;
+}
+.copy p 
+{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 16px;
+}
+.copy span 
+{
+    float: right;
+}
+.copy span i 
+{
+    margin-right: 20px;
+}
+.copy span i 
+{
+    color: #fff;
+}
+.copy span i:hover 
+{
+    color: #f9b233;
+}
+
+@media (max-width: 639px) 
+{
+    .copy .centra-logos 
+    {
+        width:max-content;
+    }
+    .copy img 
+    {
+        height: 60px;
+    }
+    .copy p 
+    {
+        font-size: 12px;
+    }
+}

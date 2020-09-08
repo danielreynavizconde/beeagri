@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wcare</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minium-scale=1.0" />
+    <link rel="stylesheet" href="Assets/css/boostrap/bootstrap.min.css">
+    <!-- Icono web -->
+    <link rel="shortcut icon" href="Assets/img/icono.ico" />
+    <!-- Fuentes web -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+    <!-- estilos css -->
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="Assets/css/pogo-slider.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/style-pogoSlider.css"/>
+    <!-- slidershow3 clientes -->
+    <link rel="stylesheet" href="Assets/js/slick/slick.css">
+    <link rel="stylesheet" href="Assets/js/slick/slick-theme.css">
+</head>
+<body>
+    <!-- ************************* Carga Principal ************************** -->
+    <div class="jm-loadingpage">
+        <img src="Assets/img/wcare-carga.svg" alt="logo-yapu">
+        <lottie-player src="https://assets9.lottiefiles.com/datafiles/w8kbBwzPRk7sTCe/data.json" background="background: rgb(100,181,44);
+        background: linear-gradient(90deg, rgba(100,181,44,1) 0%, rgba(0,153,209,1) 51%, rgba(0,204,219,1) 100%);" speed="1" loop autoplay>
+        </lottie-player>
+    </div>
+    <!-- ************************* Cabecera ************************** -->
+    <header id="menu-jk">
+        <div id="nav-head" class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 nav-img">
+                        <a href="index.html">
+                            <img class="lo logo-yapu logos-empresa" src="Assets/img/logo-yapu-blanco.png" style="padding-right: 20px;"/>
+                            <img class="lo logo-img" src="Assets/img/wcare.svg" style="padding-right: 20px;"/>
+                            <img class="lo logo-img" src="Assets/img/innovate.svg" style="padding-right: 20px;"/>
+                            <img class="lo logo-img" src="Assets/img/ministerio.png"/>
+                        </a>
+                        <a data-toggle="collapse" data-target="#menu" href="#menu">
+                            <i class="fas d-block d-md-none small-menu fa-bars"></i>
+                        </a>
+                    </div>
+                    <div id="menu" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 d-none d-md-block nav-item">
+                        <ul style="display: flex;align-items: center;height: 100%;">
+                            <li>
+                                <a key="MENU_NOSOTROS" class="lang enlaces-menu" href="#contact">Envíanos tu mensaje</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ************************* Slider Starts Here ************************** -->
+    <div class="pogoSlider" id="js-main-slider" >
+        <div class="pogoSlider-slide" data-transition="horizontalSlide" data-duration="1000" style="background-image: url(Assets/img/slider1.png);">
+            <div class="pogoSlider-slide-element">
+                <div class="container2">
+                    <div class="container-text-slider">
+                        <img class="decoration" src="assets/images/slider/foco.svg" alt="">
+                        <h3 key="SLIDER_1_TITULO_1" class="lang">Prevención y Control</h3>
+                        <h3 key="SLIDER_1_TITULO_2" class="lang">de la Salud y Seguridad</h3>
+                        <h3 key="SLIDER_1_TITULO_2" class="lang">en el Trabajo</h3>
+                        <p key="SLIDER_TEXTO" class="lang"></p>
+                        <ul class="banner-agileits">
+                            <li><a key="SLIDER_BOTON_CONTACTO" href="#contact" class="lang link-w3l1">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-img-slider">
+                        <img class="img-slider" src="assets/images/slider/slider-principal1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pogoSlider-slide" data-transition="horizontalSlide" data-duration="1000" style="background-image: url(Assets/img/slider2.png);">
+            <div class="pogoSlider-slide-element">
+                <div class="container2">
+                    <div class="container-text-slider">
+                        <img class="decoration" src="assets/images/slider/foco.svg" alt="">
+                        <h3 key="SLIDER_1_TITULO_1" class="lang">Luchando Contra</h3>
+                        <h3 key="SLIDER_1_TITULO_2" class="lang">el COVID-19</h3>
+                        <p key="SLIDER_TEXTO" class="lang"></p>
+                        <ul class="banner-agileits">
+                            <li><a key="SLIDER_BOTON_CONTACTO" href="#contact" class="lang link-w3l1">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-img-slider">
+                        <img class="img-slider" src="assets/images/slider/slider-principal1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pogoSlider-slide " data-transition="horizontalSlide" data-duration="1000" style="background-image:url(Assets/img/slider3.png);">
+            <div class="pogoSlider-slide-element">
+                <div class="container2">
+                    <div class="container-text-slider">
+                        <img class="decoration" src="assets/images/slider/pieza.svg" alt="">
+                        <h3 key="SLIDER_3_TITULO_1" class="lang">Alertas de Emergencia</h3>
+                        <h3 key="SLIDER_3_TITULO_2" class="lang">y Monitoreo</h3>
+                        <p key="SLIDER_TEXTO" class="lang"></p>
+                        <ul class="banner-agileits">
+                            <li><a key="SLIDER_BOTON_CONTACTO" href="#contact" class="lang link-w3l1">Contáctanos</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-img-slider">
+                        <img class="img-slider" src="assets/images/slider/slider-principal1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ************************* Slider End ************************* -->
+    <section id="video">
+        <div class="container">
+            <div class="row">                
+                <div class="col-xs-11 col-sm-4 col-md-4 col-lg-8 izquierda">                    
+                    <div class="slideshowX1">
+                        <div class="slide slide1">
+                            <img src="Assets/img/01.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide2">
+                            <img src="Assets/img/02.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide3">
+                            <img src="Assets/img/03.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide4">
+                            <img src="Assets/img/04.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide5">
+                            <img src="Assets/img/05.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide6">
+                            <img src="Assets/img/06.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide7">
+                            <img src="Assets/img/07.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide8">
+                            <img src="Assets/img/08.jpg" alt="imagen">
+                        </div>
+                        <div class="slide slide9">
+                            <img src="Assets/img/09.jpg" alt="imagen">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-11 col-sm-8 col-md-4 col-lg-4 derecha">
+                    <div>
+                        <h3>La tecnología</h3>
+                        <h3>a favor de</h3>
+                        <h3>tu industria</h3>
+                        <span class="linea"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="quees">
+        <div class="container">
+            <div class="row">                
+                <div class="col-xs-11 col-sm-4 col-md-4 col-lg-6 izquierda">
+                    <img src="Assets/img/quees.png " alt="">
+                </div>
+                <div class="col-xs-11 col-sm-8 col-md-4 col-lg-6 derecha">
+                    <div>
+                        <h3>¿Qué es Wcare?</h3>
+                        <span class="linea"></span>
+                        <p>WCARE es una solución tecnológica que alinea el control de la salud y la seguridad en el trabajo, mediante alertas de emergencia y monitoreo para el cumplimiento de los protocolos
+                        establecidos, de esta forma, pretendemos colaborar contigo en la prevención, detección y la no propagación de la pandemia que amenaza a nuestro país, el COVID19.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Beneficios">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-lg-6">
+                    <img src="Assets/img/beneficios.png" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-7 col-lg-6 derecha">
+                    <div>
+                        <h3>Beneficios</h3>
+                        <p>
+                            Wcare cuenta con un módulo de desinfección y control que permite tener un mejor registro de incidencias.
+                        </p>
+                        <a href="#">Envíanos tu mensaje</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Caracteristicas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="Assets/img/control.svg" alt="">
+                    <h2>Controles de salud</h2>
+                </div>
+                <div class="col-lg-4">
+                    <img src="Assets/img/seguridad.svg" alt="">
+                    <h2>Seguridad en el trabajo</h2>
+                </div>
+                <div class="col-lg-4">
+                    <img src="Assets/img/corona-virus.svg" alt="">
+                    <h2>Prevención y detección de COVID-19</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ************************* Clientes ************************* -->
+    <section id="pricing" class="row pricing ammenties-white">
+        <div class="container">
+            <div class="row sec-title">
+                <h2 key="CLIENTS_TTULO" class="lang"><img src="Assets/img/flechas.svg" alt=""><b>Funcionalidades</b></h2>
+            </div>
+            <div class="row">
+                <div class="slideshowX1 col-lg-12">
+                    <div class="slide slide1">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Control de Ingresos y Puntos de Control</h3>
+                        </div>
+                        <p><b>Registra, controla y verifica</b> que tu trabajador presente óptimas condiciones (apto) 
+                            para el ingreso a su centro laboral o cualquier espacio donde se concentren los trabajadores 
+                            (auditorios, salas de descanso, baños, salas de reuniones, otros).
+                        </p>
+                    </div>
+                    <div class="slide slide2">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Control de Traslado de Transporte de Personal y Tareo</h3>
+                        </div>
+                        <p><b>Registra, controla y verifica</b> que tu trabajador presente óptimas condiciones (apto) 
+                            al momento de abordar un vehículo en un viaje previamente programado.
+                        </p>
+                    </div>
+                    <div class="slide slide4">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Registro de Eventos e Incidencias</h3>
+                        </div>
+                        <p><b>Registra eventos e incidencias</b> en cualquier momento. Las incidencias tipo Covid alerta a los especialistas de Salud para su atención.</p>
+                    </div>
+                    <div class="slide slide5">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Triaje</h3>
+                        </div>
+                        <p><b>Seguimiento y atención de la alerta.</b> El triaje es la evaluación que realizan los especialistas de Salud para determinar <b>si el posible caso Covid
+                            es positivo, negativo o cerrado (atención sin prueba Covid).
+                        </b></p>
+                        <p>
+                            Si tenemos un caso positivo se le informa a la gerencia. Los Triajes programados se refiere a la evaluación a un determinado grupo de trabajadores para 
+                            <b>conocer el estado actual de la empresa frente al contagio.</b>
+                        </p>
+                    </div>
+                    <div class="slide slide6">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Comunicados y Protocolos</h3>
+                        </div>
+                        <p>Los comunicados y protocolos permiten <b>mantener informados</b> a los trabajadores sobre el Covid y/o programaciones que se realizarán en las próximas fechas.</p>
+                    </div>
+                    <div class="slide slide7">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Gestión de Alertas</h3>
+                        </div>
+                        <p><b>Gestiona de manera efectiva</b> las incidencias tipo COVID a través de Notificaciones en tiempo real de los eventos importantes (posible covid, caso positivo).</p>
+                    </div>
+                    <div class="slide slide8">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Reportes de Trazabilidad y Seguimiento</h3>
+                        </div>
+                        <p><b>Tendremos una visión general y a detalle </b> de las personas con las que tuvo cercanía un infectado de Covid durante los últimos 15 dias, 
+                            <b>gracias a los controles de acceso</b> por los que tuvo que pasar durante ese periodo.</p>
+                    </div>
+                    <div class="slide slide9">
+                        <div>
+                            <img src="Assets/img/check.svg" alt="check"><h3>Panel de Control Estadístico</h3>
+                        </div>
+                        <p>Representación gráfica de los reportes. Reportes de los datos registrados por la aplicación móvil.</p>
+                        <ul>
+                            <li>Reporte de Incidencias.</li>
+                            <li>Reporte de Atención de Incidencias.</li>
+                            <li>Reporte de Infectados Covid - Trazabilidad.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="SoporteyServicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 col-lg-6">
+                    <img src="Assets/img/soporte.png" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-7 col-lg-6 derecha">
+                    <div>
+                        <h3>Soporte y</h3>
+                        <h3>servicio dedicado</h3>
+                        <p>
+                            Contamos con servicio de atención especializado al cliente y tiempos de respuesta eficientes.
+                        </p>
+                        <p>
+                            Nuestro personal de soporte está altamente capacitado y resolverán cualquier consulta o incidencia en el menor tiempo posible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="nuestrosCLientes">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-6 izquierda">
+                    <div class="col-lg-12">
+                        <img src="Assets/img/personas.svg" alt="">
+                    </div>
+                    <div class="col-lg-12 div-nuestrosClientes">
+                        <h2>
+                            Nuestros </br>Clientes
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 derecha">
+                    <p>
+                        Nuestro propósito es <b>aportar con las herramientas tecnológicas</b>
+                        necesarias para <b>el control y prevención.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-us-single">
+        <!--<div class="row sec-title">
+            <h2 key="CONTACT_TITULO" class="lang" style="padding:10px 0px 50px 0px !important">Contáctanos</h2>
+        </div>-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-6 no-padding" style="display: flex;align-items: center;float: left;">
+                    <img src="Assets/img/wcare-app-form.png" alt="laptop" class="laptop-contacto">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-6">
+                    <h2>¿Listo para empezar?</h2>
+                    <span>Solicita tu DEMO</span>
+                    <h3><b key="LOCATION_TITULO" class="lang">  Envíanos tu mensaje</b></h3>
+                    <form onsubmit="return valida(this)" action="https://formspree.io/informes@yapu.pe" method="POST">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input key="LOCATION_INPUT_NOMBRE" type="text" name="name" id="full-name" placeholder="Nombre" class="lang form-control input-group-sm" onkeypress="return check(event)" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input key="LOCATION_INPUT_CORREO" type="email" name="_replyto" id="email-address" placeholder="Correo" class="lang form-control input-group-sm" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <input key="LOCATION_INPUT_CELULAR" type="number" name="_phone" id="number-phone" placeholder="Celular" class="lang form-control input-group-sm" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <textarea key="LOCATION_INPUT_MENSAJE" rows="5" name="message" id="message" placeholder="Mensaje" class="lang form-control input-group-sm"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button key="LOCATION_BOTON" class="lang btn btn-success btn-group-sm enviar fondo-degradado" type="submit">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!--  ************************* Contact Us Starts Here ************************** -->
+    <section id="contact-us" class="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="contat-det">
+                        <div class="div-imagen">
+                            <img src="Assets/img/location.svg" alt="locación">
+                        </div>
+                        <p><b key="CONTACT_OFI_2_TITULO" class="lang">Oficina Lima</b></p>
+                        <p>Av. Manuel Olguín #335 - Of. 303,</p>
+                        <p>Santiago de Surco</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="contat-det">
+                        <p><b key="CONTACT_OFI_1_TITULO" class="lang">Oficina Trujillo</b></p>
+                        <p>Av. Teodoro Valcárcel #999,</p>
+                        <p>Urb. Santa Leonor</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                    <div class="contat-det">
+                        <div class="div-imagen">
+                            <img src="Assets/img/phone.svg" alt="teléfono">
+                        </div>
+                        <p><b key="CONTACT_TELEFONO_TITULO" class="lang">Teléfono</b></p>
+                        <p>(+51) 982 585 743</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="contat-det">
+                        <div class="div-imagen">                            
+                            <img src="Assets/img/email.svg" alt="correo">
+                        </div>
+                        <p><b key="CONTACT_CORREO_TITULO" class="lang">Correo Electrónico</b></p>
+                        <p>informes@yapu.pe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  ************************* Copyright ************************** -->
+    <div class="copy fondo-degradado">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="centra-logos">
+                        <img src="Assets/img/logo-yapu-blanco.png" alt="">
+                        <img src="Assets/img/wcare.svg" alt="" class="logo-beeagri">
+                        <img src="Assets/img/innovate.svg" alt="">
+                        <img src="Assets/img/ministerio.png" alt="">
+                    </div>
+                    <div>
+                        <p key="FOOTER_COPY" class="lang">© Diseñado por YAPU Solutions | Copyright 2020</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery/jquery.js"></script>
+    <script type="text/javascript" src="Assets/js/script.js"></script>
+    <script src="assets/js/boostrap/bootstrap.min.js"></script>
+    
+    <!-- Carga -->
+    <script type="text/javascript" src="Assets/js/carga/lottie-player.js"></script>
+    <!--carrusel clientes-->
+    <script src="Assets/js/slick/jquery-latest.js"></script>
+    <script src="Assets/js/slick/slick.min.js"></script>
+    <script>
+        $('.slideshowX1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
+        });
+    </script>
+    <!-- Slider Principal -->
+    <script type="text/javascript" src="Assets/js/pogo-slider/jquery.pogo-slider.min.js"></script>
+    <script type="text/javascript" src="Assets/js/pogo-slider/main.js"></script>
+</body>
+</html>
