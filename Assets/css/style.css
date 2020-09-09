@@ -339,8 +339,8 @@ header .header-nav .nav-item ul li a
 }
 #video .slideshowX1 
 {
-margin: -20px 0px;
-width: 100% !important;
+    margin: -20px 0px;
+    width: 100% !important;
 }
 #video .container .row .izquierda .slideshowX1 button
 {
@@ -377,6 +377,52 @@ width: 100% !important;
     {
         font-size: 26px;
         line-height: 26px;
+    }
+}
+@media (max-width: 767px)
+{
+    #video .slideshowX1 
+    {
+    margin: 15px 0px;
+    width: 100% !important;
+    }
+    #video h3
+    {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    #video .linea
+    {
+        width: 80px;
+        margin: 15px 0px 0px;
+    }
+}
+@media (max-width: 575px)
+{
+    #video .row
+    {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #video h3
+    {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    #video .linea
+    {
+        width: 80px;
+        margin: 15px 0px 0px;
+    }
+    #video .derecha
+    {
+        display: flex;
+        align-items: center;
+        background-image: url("../img/wcare-marca-de-agua.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        padding: 35px 15px 50px;
     }
 }
 /* ============================================================================ */
@@ -418,10 +464,20 @@ width: 100% !important;
 }
 @media (max-width: 991px)
 {
+    #quees img
+    {
+        width: 100%;
+        margin: 0px 0% 40px;
+    }
     #quees h3
     {
         font-size: 36px;
-        line-height: 50px;
+        line-height: 40px;
+    }
+    #quees .linea
+    {
+        width: 100px;
+        margin: 15px 0px;
     }
     #quees p
     {
@@ -501,6 +557,10 @@ width: 100% !important;
     }
 }
 @media (max-width: 767px){
+    #Beneficios img
+    {
+        margin: 15px 0px 0px;
+    }
     #Beneficios .derecha
     {
         display: flex;
@@ -573,8 +633,8 @@ width: 100% !important;
 .slideshowX1 
 {
     float: left;
-    width: calc(100% - 50px) !important;
-    margin-left: 25px;
+    width: calc(100% - 80px) !important;
+    margin-left: 35px;
 }
 .slideshowX1 .slide 
 {
@@ -602,6 +662,8 @@ width: 100% !important;
 .slideshowX1 .slide div img
 {
     margin-right: 20px;
+    width: 50px;
+    height: 50px;
 }
 .slideshowX1 .slide div h3
 {
@@ -659,14 +721,10 @@ width: 100% !important;
     .pricing h2 img
     {
         width: 90px;
-        box-sizing: border-box;
         margin: 0px;
-        padding: 30px 20px;
     }
     .slideshowX1 .slide div h3
     {
-        color: #009BDE;
-        font-weight: bold;
         font-size: 20px;
     }
     .slideshowX1 .slide p 
@@ -962,7 +1020,80 @@ width: 100% !important;
     float: left;
     width: 100%;
     margin: 0px;
-    padding: 50px 0px 50px;
+    padding: 70px 0px 70px;
+}
+.img-form
+{
+    width: 100%;
+    margin: 0px auto;
+}
+#contact h2 {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    padding: 0px;
+    color: #1C9FE0;
+    text-align: left;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+#contact span
+{
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    color: #1C9FE0;
+    font-weight: bold;
+}
+#contact h3
+{
+    float: left;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#contact form
+{
+    float: left;
+    width: 100%;
+}
+@media (max-width: 1199px)
+{
+    #contact h2 
+    {      
+        font-size: 35px;
+    }
+    #contact span
+    {
+        font-size: 24px;      
+    }
+    #contact h3
+    {
+        font-size: 16px;
+    }
+}
+@media (max-width: 991px)
+{
+    .img-form
+    {
+        margin: 0px auto 30px;
+    }
+}
+@media (max-width: 430px)
+{
+    #contact h2 
+    {      
+        font-size: 25px;
+    }
+    #contact span
+    {
+        font-size: 18px;      
+    }
+    #contact h3
+    {
+        font-size: 16px;
+    }
 }
 .enviar
 {
@@ -971,7 +1102,6 @@ width: 100% !important;
 .contact-us-single .cop-ck {
     padding: 20px 30px;
 }
-
 .form-control
 {
     background-color: #ffffff;
@@ -983,7 +1113,8 @@ width: 100% !important;
     box-shadow: none;
 }
 /* =====================================  Contat Us Style  ================================== */
-.contact-us {
+.contact-us 
+{
     overflow: hidden;
     box-sizing: border-box;
     float: left;
@@ -992,66 +1123,30 @@ width: 100% !important;
     padding: 50px 0px 50px 0px;
     background: #ffffff !important;
 }
-
-#contact .sec-title {
+#contact .sec-title 
+{
     background-image: url("../images/titles/verde.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
-
-#contact h2 {
-    
-    font-weight: bold;
-    padding: 0px;
-    color: #1C9FE0;
-    text-align: left;
-    font-size: 42px;
-    line-height: 60px;
-}
-#contact span
+.contact-us .contat-det 
 {
-    font-size: 30px;
-    line-height: 30px;
-    margin: 0px 0px;
-    color: #1C9FE0;
-    font-weight: bold;
-}
-#contact h3
-{
-    font-size: 24px;
-    line-height: 24px;
-    margin: 15px 0px;
-    font-weight: bold;
-}
-@media screen and (max-width: 500px) {
-    #contact h2 {    
-        padding: 50px 0px 0px 0px;        
-        font-size: 35px;
-        line-height: 45px;
-    }
-    #contact span
-    {
-        font-size: 24px;
-        margin:10px 0px;
-        width: 100%;
-        float: left;
-    }
-}
-.contact-us .contat-det {
     float: left;
     width: 100%;
     height: auto;
+    padding: 15px 0px;
 }
-
-.contact-us .contat-det img {
+.contact-us .contat-det img 
+{
     float: left;
     max-width: 60px;
     max-height: 50px;
     margin-right: 15px;
 }
 
-.contact-us .contat-det p {
+.contact-us .contat-det p 
+{
     font-size: 12px;
     margin: 0px;
     padding: 0px;
@@ -1061,7 +1156,8 @@ width: 100% !important;
     display: flex;
 }
 
-.contact-us .contat-det p b {
+.contact-us .contat-det p b 
+{
     float: left;
     font-size: 18px !important;
     color: #1C9FE0;
@@ -1069,11 +1165,10 @@ width: 100% !important;
     width: auto;
 }
 
-@media (max-width: 736px) {
-    .contact-us .contat-det {
-        margin-bottom: 20px;
-    }
-    .contact-us .contat-det {        
+@media (max-width: 736px) 
+{    
+    .contact-us .contat-det 
+    {        
         padding-left: 50px;
     }
 }
