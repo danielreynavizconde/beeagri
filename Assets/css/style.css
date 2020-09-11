@@ -64,8 +64,16 @@ h2,h3,h4,h5,p,label
 }
 .fondo-degradado
 {
-    background: rgb(100,181,44);
-    background: linear-gradient(90deg, rgba(100,181,44,1) 0%, rgba(0,153,209,1) 51%, rgba(0,204,219,1) 100%);
+    
+background: rgba(101,181,44,1);
+background: -moz-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,181,44,1)), color-stop(100%, rgba(0,153,209,1)));
+background: -webkit-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: -o-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: -ms-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: linear-gradient(to right, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', endColorstr='#0099d1', GradientType=1 );
+
 }
 /***************************************Loading page************************************/
 .jm-loadingpage 
@@ -498,8 +506,16 @@ header .header-nav .nav-item ul li a
 /* ============================================================================ */
 #Beneficios
 {
-    background: rgb(100,181,44);
-    background: linear-gradient(90deg, rgba(100,181,44,1) 0%, rgba(0,153,209,1) 51%, rgba(0,204,219,1) 100%);
+    
+background: rgba(101,181,44,1);
+background: -moz-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,181,44,1)), color-stop(100%, rgba(0,153,209,1)));
+background: -webkit-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: -o-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: -ms-linear-gradient(left, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+background: linear-gradient(to right, rgba(101,181,44,1) 0%, rgba(0,153,209,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', endColorstr='#0099d1', GradientType=1 );
+
 }
 #Beneficios .derecha
 {
