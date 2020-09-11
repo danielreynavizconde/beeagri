@@ -1,5 +1,6 @@
 /***************************************Loading page************************************/
-.jm-loadingpage {
+.jm-loadingpage 
+{
     position: fixed;
     left: 0px;
     top: 0px;
@@ -7,7 +8,8 @@
     height: 100%;
     z-index: 99999999999999;
 }
-.jm-loadingpage img {
+.jm-loadingpage img 
+{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -17,11 +19,13 @@
     height: auto;
     z-index: 999999999999999;
 }
-.lottie-player {
+.lottie-player 
+{
     width: 100%;
     height: 100%;
 }
-@media (max-width: 736px) {
+@media (max-width: 736px) 
+{
     .jm-loadingpage img {
         width: 100px;
     }
@@ -42,23 +46,18 @@ body
     height: auto;
 }
 /* =======================================css basicos ================================= */
-a {
+a 
+{
     text-decoration: none;
     outline: none;
 }
-a:hover,
-a:focus,
-input,
-textarea {
+a:hover,a:focus,input,textarea 
+{
     text-decoration: none;
     outline: none;
 }
-h2,
-h3,
-h4,
-h5,
-p,
-label {
+h2,h3,h4,h5,p,label 
+{
     color: #878787;
     margin: 0px;
     padding: 0px;
@@ -69,7 +68,8 @@ label {
     background: linear-gradient(90deg, rgba(100,181,44,1) 0%, rgba(0,153,209,1) 51%, rgba(0,204,219,1) 100%);
 }
 /***************************************Loading page************************************/
-.jm-loadingpage {
+.jm-loadingpage 
+{
     position: fixed;
     left: 0px;
     top: 0px;
@@ -77,7 +77,8 @@ label {
     height: 100%;
     z-index: 99999999999999;
 }
-.jm-loadingpage img {
+.jm-loadingpage img 
+{
     position: absolute;
     left: 50%;
     top: 50%;
@@ -87,53 +88,54 @@ label {
     height: auto;
     z-index: 999999999999999;
 }
-.lottie-player {
+.lottie-player 
+{
     width: 100%;
     height: 100%;
 }
-@media (max-width: 736px) {
-    .jm-loadingpage img {
+@media (max-width: 736px) 
+{
+    .jm-loadingpage img 
+    {
         width: 100px;
     }
 }
 /* ===========*********************** Header Style ***************================= */
-
-header {
+header 
+{
     position: relative;
     width: 100%;
     z-index: 999;
     position: absolute;
 }
-header .header-nav {
+header .header-nav 
+{
     width: 100%;
     padding: 50px 0px;
 }
 @media screen and (max-width: 1550px) 
 {
-    header .header-nav {
+    header .header-nav 
+    {
         background-image:none;
     }
 }
 @media screen and (max-width: 768px) 
 {
-    header .header-nav {
+    header .header-nav 
+    {
         padding: 0px 0px;
     }
 }
-.logo-img 
+.logo-img
 {
     width: auto !important;
     height: 70px !important;
+    padding-right: 20px;
 }
-.logo-yapu 
+.logo-img:last-child
 {
-    width: auto !important;
-    height: 70px !important;
-}
-.logo-xps
-{
-    height: 50px !important;
-    margin-top:5px;
+    padding-right: 0px;
 }
 header .header-nav .nav-item ul 
 {
@@ -142,13 +144,7 @@ header .header-nav .nav-item ul
 }
 @media screen and (max-width: 767px) 
 {
-    .logo-img {
-        border-right: 0px #fff solid;
-    }
-    .logos-empresa
-    {
-        display: none;
-    }
+    
     header .header-nav .nav-item ul 
     {
         width: 100%;
@@ -186,8 +182,9 @@ header .header-nav .nav-item ul li a
 {
     .logo-img 
     {
-        margin: 15px 15px;
+        margin: 15px 0px;
         height: 40px !important;
+        padding-right: 10px;
     }
     header .header-nav .nav-item ul li a 
     {
@@ -245,11 +242,13 @@ header .header-nav .nav-item ul li a
 {
     color: #666;
 }
-.flag-lang {
+.flag-lang 
+{
     height: 14px;
     width: 14px;
 }
-.theme-btn {
+.theme-btn 
+{
     display: inline-block;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -259,11 +258,13 @@ header .header-nav .nav-item ul li a
     border-width: 2px !important;
     color: #ffffff;
 }
-.btn-success {
+.btn-success 
+{
     color: white;
     width: 100%;
 }
-.btn-style-two {
+.btn-style-two 
+{
     position: relative;
     padding: 6px 30px;
     line-height: 24px;
@@ -275,11 +276,13 @@ header .header-nav .nav-item ul li a
     font-weight: 700;
     border-radius: 50px;
 }
-.btn-style-two:hover {
+.btn-style-two:hover 
+{
     background: #f9b233;
     color: #ffffff;
 }
-.btn-style-one {
+.btn-style-one 
+{
     position: relative;
     padding: 6px 30px;
     line-height: 24px;
@@ -302,22 +305,28 @@ header .header-nav .nav-item ul li a
     display: block;
     margin: 0px auto;
 }
-.logo-yapu-politica {
+.logo-yapu-politica 
+{
     width: 170px;
     display: block;
     margin: 0px auto;
 }
-.numeros {
+.numeros 
+{
     display: block;
 }
-.numeros-h {
+.numeros-h 
+{
     display: none;
 }
-@media screen and (max-width: 500px) {
-    .numeros {
+@media screen and (max-width: 500px) 
+{
+    .numeros 
+    {
         display: none;
     }
-    .numeros-h {
+    .numeros-h 
+    {
         display: block;
         margin: 30px 0px;
     }
