@@ -67,16 +67,14 @@
 {
 	.container2
 	{
-		width: 90%;
-		margin: 0px auto;
+		width: 500px;
 	}
 }
-@media (max-width: 470px)
+@media (max-width: 600px)
 {
 	.container2
 	{
-		width: 80%;
-		margin: 0px auto;
+		width: 400px;
 	}
 }
 .pogoSlider-loading

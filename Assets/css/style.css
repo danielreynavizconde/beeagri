@@ -170,12 +170,15 @@ header .header-nav .nav-item ul li
     {
         float: none;
     }
+}
+@media screen and (max-width: 768px) {
+    
     header .header-nav .nav-item ul li a 
     {
         padding: 20px 10px;
     }
 }
-header .header-nav .nav-item ul li a 
+header .header-nav .nav-item ul li a
 {
     color: #ffffff;
     width: 100%;
@@ -477,7 +480,7 @@ header .header-nav .nav-item ul li a
 {
     color: #8F8F8F;
     font-size: 24px;
-    line-height: 26px;
+    line-height: 28px;
 }
 @media (max-width: 991px)
 {
@@ -499,8 +502,8 @@ header .header-nav .nav-item ul li a
     #quees p
     {
         color: #8F8F8F;
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 16px;
+        line-height: 22px;
     }
 }
 /* ============================================================================ */
@@ -540,9 +543,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
 {
     width: 100%;
     color: #fff;
-    padding: 15px 0px 15px 0px;
-    font-size: 24px;
-    line-height: 28px;
+    padding: 15px 0px;
+    font-size: 20px;
+    line-height: 26px;
 }
 #Beneficios a
 {
@@ -566,10 +569,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     }
     #Beneficios p
     {
-        width: 100%;
-        padding: 15px 0px 15px 0px;
         font-size: 16px;
-        line-height: 20px;
+        line-height: 22px;
     }
     #Beneficios a
     {
@@ -756,7 +757,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     {
         
         font-size: 16px;
-        line-height: 20px;
+        line-height: 22px;
     }
     .slideshowX1 .slide ul li 
     {
@@ -835,7 +836,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
         line-height: 18px;
     }
 }
-@media (max-width: 768px)
+@media (max-width: 767px)
 {    
     #SoporteyServicio .derecha
     {
@@ -846,6 +847,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     {
         width: 100px;
         margin-top: -40px;
+    }
+    #SoporteyServicio img
+    {
+        margin: 15px 0px 0px;
     }
     #SoporteyServicio h3
     {
@@ -860,7 +865,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
         color: #fff;
         padding: 0.8em 0px 0px 34px;
         font-size: 16px;
-        line-height: 18px;
+        line-height: 22px;
     }
 }
 /* =====================================  Nuestros Clientes  ================================== */
@@ -1124,7 +1129,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
 {
     width: 100%;
 }
-.contact-us-single .cop-ck {
+.contact-us-single .cop-ck 
+{
     padding: 20px 30px;
 }
 .form-control
@@ -1134,7 +1140,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     font-size: 16px;
     border: none;
 }
-.form-control:focus {
+.form-control:focus 
+{
     box-shadow: none;
 }
 /* =====================================  Contat Us Style  ================================== */
@@ -1169,7 +1176,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     max-height: 50px;
     margin-right: 15px;
 }
-
 .contact-us .contat-det p 
 {
     font-size: 12px;
@@ -1177,10 +1183,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     padding: 0px;
     line-height: 16px;
     width: auto;
-    margin-left: 10px;
     display: flex;
 }
-
 .contact-us .contat-det p b 
 {
     float: left;
@@ -1189,7 +1193,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     padding-bottom: 5px;
     width: auto;
 }
-
 @media (max-width: 736px) 
 {    
     .contact-us .contat-det 
@@ -1197,11 +1200,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
         padding-left: 50px;
     }
 }
-
-
 /*============================*/
-
-.contact-us2 {
+.contact-us2 
+{
     overflow: hidden;
     box-sizing: border-box;
     float: left;
@@ -1210,20 +1211,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     padding: 50px 0px 50px 0px;
     background: #ffffff !important;
 }
-
-.contact-us2 .contat-det {
+.contact-us2 .contat-det 
+{
     padding: 20px 0px;
 }
-
-.contact-us2 .contat-det img {
+.contact-us2 .contat-det img 
+{
     float: left;
     width: 80px;
     max-width: 80px;
     max-height: 70px;
     margin-right: 15px;
 }
-
-.contact-us2 .contat-det p {
+.contact-us2 .contat-det p 
+{
     font-size: 16px;
     margin: 0px;
     padding: 0px;
@@ -1232,8 +1233,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     display: flex;
     line-height: 20px;
 }
-
-.contact-us2 .contat-det p b {
+.contact-us2 .contat-det p b 
+{
     float: left;
     font-size: 20px !important;
     color: #1C9FE0;
