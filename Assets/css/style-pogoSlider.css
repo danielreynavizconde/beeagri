@@ -83,35 +83,7 @@
     background-repeat: no-repeat;
     background-position: right;
 }
-.pogoSlider-slide-element ul.banner-agileits li a.link-w3l1:hover 
-{
-    background: none;
-    color: white;
-    background-image: url("../images/derecha.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.pogoSlider-slide-element ul.banner-agileits li a.link-w3l2 
-{
-    width: 220px;
-    text-decoration: none;
-    padding: 5px 0px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    border: solid 2px white;
-    display: inline-block;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    -ms-border-radius: 5px;
-    background-image: url("../images/derecha.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.btn 
+.btn
 {
     font-weight: 400;
     -webkit-transition: all 0.3s ease-in-out;
@@ -127,38 +99,54 @@
 {
 	.pogoSlider-slide-element h3 
     {        
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 35px;
+        line-height: 40px;
     }
 }
 @media (max-width: 767px)
 {
-	
+	.pogoSlider-slide-element h3 
+    {        
+        font-size: 26px;
+        line-height: 30px;
+    }
 }
 @media (max-width: 650px)
 {	
     .pogoSlider-slide-element ul.banner-agileits 
     {
-        text-align: left;
-        float: left;
+        margin: 8px 0px 0px;
     }
     .pogoSlider-slide-element h3 
     {        
-        font-size: 28px;
-        line-height: 33px;
+        font-size: 22px;
+        line-height: 26px;
     }
 }
 @media (max-width: 500px)
 {
-	
-    .pogoSlider-slide-element ul.banner-agileits 
+	.pogoSlider-slide-element ul.banner-agileits 
     {
-        text-align: left;
-        float: left;
+        margin: 5px 0px 0px;
     }
     .pogoSlider-slide-element h3 
     {        
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1 
+    {
+        width: 150px;
+        font-size: 16px;
+        padding: 0px 0px 0px 10px;
+        display: inline-block;
+    }
+}
+@media (max-width: 400px)
+{
+	.pogoSlider-slide-element h3 
+    {        
+        font-size: 18px;
+        line-height: 20px;
     }
 }
