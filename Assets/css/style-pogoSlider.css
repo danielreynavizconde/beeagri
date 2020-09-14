@@ -27,8 +27,8 @@
     float: left;
     width: 100%;
     color: #fff !important;
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 55px;
+    line-height: 60px;
     text-align: left;
     font-weight: bold;
 }
@@ -118,7 +118,7 @@
         margin: 8px 0px 0px;
     }
     .pogoSlider-slide-element h3 
-    {        
+    {
         font-size: 22px;
         line-height: 26px;
     }

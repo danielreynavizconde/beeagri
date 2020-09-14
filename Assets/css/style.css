@@ -575,6 +575,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     border: solid 1px white;
     font-weight: bold;
 }
+@media (max-width: 1199px)
+{
+    #Beneficios .derecha
+    {        
+        padding:0px 30px;
+    }
+    #Beneficios h3
+    {
+        
+        font-size: 40px;
+        line-height: 30px;
+    }
+    #Beneficios p
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #Beneficios a
+    {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
 @media (max-width: 991px)
 {
     #Beneficios .derecha
@@ -585,15 +608,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     }
     #Beneficios h3
     {
-        width: 100%;
         font-size: 30px;
         line-height: 20px;
-        margin: 0px;
     }
     #Beneficios p
     {
         font-size: 16px;
         line-height: 22px;
+        padding: 10px 0px;
     }
     #Beneficios a
     {
@@ -640,7 +662,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
 {
     #Caracteristicas
     {
-        padding: 50px 0px 0px;
+        padding: 50px 0px 50px;
     }
     #Caracteristicas h2
     {
@@ -859,25 +881,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
 }
 @media (max-width: 991px) 
 {
-    
     #SoporteyServicio .derecha
     {
         padding: 20px 15px 20px 15px;
     }
     #SoporteyServicio h3
     {
-        width: 100%;
-        border-left: solid #fff 20px;
+        border-left: solid #fff 10px;
         font-size: 24px;
-        line-height: 24px;
-        margin: 0px;
-        padding: 0px 0px 0px 40px;
+        line-height: 28px;
+        padding: 0px 0px 0px 20px;
     }
     #SoporteyServicio p
     {
         width: 100%;
-        padding: 15px 0px 0px 60px;
-        font-size: 14px;
+        padding: 10px 0px 0px 30px;
+        font-size: 16px;
         line-height: 18px;
     }
 }
@@ -888,27 +907,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    #SoporteyServicio .abeja3
-    {
-        width: 100px;
-        margin-top: -40px;
-    }
     #SoporteyServicio img
     {
         margin: 15px 0px 0px;
     }
     #SoporteyServicio h3
     {
-        border-left: solid #fff 15px;
-        font-size: 24px;
-        line-height: 28px;
+        font-size: 30px;
+        line-height: 30px;
         padding: 0px 0px 0px 20px;
     }
     #SoporteyServicio p
     {
-        width: 100%;
-        color: #fff;
-        padding: 0.8em 0px 0px 34px;
+        padding: 10px 0px 0px 30px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 575px)
+{
+    #SoporteyServicio h3
+    {
+        font-size: 24px;
+        line-height: 24px;
+        padding: 0px 0px 0px 20px;
+    }
+    #SoporteyServicio p
+    {
+        padding: 10px 0px 0px 30px;
         font-size: 16px;
         line-height: 22px;
     }
@@ -924,6 +950,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
 #nuestrosCLientes .izquierda
 {
     float: left;
+    padding: 0px !important;
 }
 #nuestrosCLientes .izquierda div
 {
@@ -934,7 +961,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     float: right;
     width: 140px;
     margin-bottom: 40px;
-    margin-right: 70px;
+    margin-right: 55px;
 }
 .div-nuestrosClientes
 {
@@ -949,7 +976,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     text-align: right;
     color: #009BDE;
     font-weight: bold;
-    padding: 0px 0px 15px;
+    padding: 0px 0px 10px;
 }
 #nuestrosCLientes .derecha
 {
@@ -960,29 +987,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     font-size: 28px;
     line-height: 34px;
     text-align: left;
-    margin-top: 185px;
+    margin-top: 180px;
 }
-@media (max-width: 1599px)
+@media (max-width: 1199px)
 {
-    #nuestrosCLientes p
+    #nuestrosCLientes h2
     {
-        font-size: 30px;
-        line-height: 36px;
-        text-align: left;
-        margin-top: 185px;
+        font-size: 80px;
+        line-height: 70px;
+        padding: 0px 0px 10px;
     }
-}
-@media (max-width: 1299px)
-{
     #nuestrosCLientes p
     {
         font-size: 24px;
         line-height: 30px;
-        text-align: left;
         margin-top: 185px;
     }
 }
-@media screen and (max-width: 500px) 
+@media (max-width: 991px)
+{
+    #nuestrosCLientes h2
+    {
+        font-size: 50px;
+        line-height: 50px;
+        padding: 0px 0px 15px;
+    }
+    #nuestrosCLientes p
+    {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 170px;
+    }
+}
+@media (max-width: 767px)
 {
     #nuestrosCLientes
     {
@@ -991,7 +1028,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     #nuestrosCLientes .izquierda div
     {
         float: left;
-        font-size: 8px;
     }
     #nuestrosCLientes .derecha
     {
@@ -1006,16 +1042,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
         margin-right: 0px;
         margin: 0px auto 25px;
     }
-    #nuestrosClientes .div-nuestrosClientes
-    {
-        border-right: solid 3px #f9b233;
+    .div-nuestrosClientes
+    {        
+        border-right: solid 0px #009BDE;    
         padding-right: 0px;
     }
     #nuestrosCLientes h2
     {
         width: 100%;
-        font-size: 4.2em;
-        line-height: 0.9em;
+        font-size: 40px;
+        line-height: 40px;
         text-align: center;
         padding: 0px 0px 0px;
     }
