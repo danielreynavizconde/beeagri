@@ -203,6 +203,20 @@ header .header-nav .nav-item ul li a
         padding: 20px 20px;
     }
 }
+@media screen and (max-width: 400px) 
+{
+    .logo-img 
+    {
+        margin: 15px 0px;
+        height: 30px !important;
+        padding-right: 5px;
+    }
+    header .header-nav .nav-item ul li a 
+    {
+        border-radius: 0px;
+        padding: 20px 20px;
+    }
+}
 .small-menu 
 {
     float: right;
@@ -401,6 +415,10 @@ header .header-nav .nav-item ul li a
 }
 @media (max-width: 767px)
 {
+    #video
+    {
+        margin: 50px 0px 0px;
+    }
     #video .slideshowX1 
     {
     margin: 15px 0px;
@@ -703,13 +721,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     width: 120px;
     box-sizing: border-box;
     margin: 0px;
-    padding: 30px 20px;
+    padding: 30px 30px 30px 0px;
 }
 .slideshowX1 
 {
-    float: left;
-    width: calc(100% - 80px) !important;
-    margin-left: 35px;
+    float: none;
+    width: 80% !important;
+    margin: 0px auto;
 }
 .slideshowX1 .slide 
 {
@@ -812,6 +830,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65b52c', end
     {
         font-size: 16px;
         line-height: 20px;
+    }
+}
+@media (max-width: 575px)
+{
+    .pricing h2
+    {
+        width: 100%;
+        float: left;
+        margin: 0px;
+        padding: 30px 0px;
+        font-size: 24px;
+    }
+    .pricing h2 img
+    {
+        width: 80px;
+        margin: 0px;
+    }
+    .slideshowX1 .slide div h3
+    {
+        font-size: 18px;
     }
 }
 /* ============================================================================ */

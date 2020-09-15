@@ -146,7 +146,14 @@
 {
 	.pogoSlider-slide-element h3 
     {        
-        font-size: 18px;
-        line-height: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .pogoSlider-slide-element ul.banner-agileits li a.link-w3l1 
+    {
+        width: 120px;
+        font-size: 12px;
+        padding: 0px 0px 0px 10px;
+        display: inline-block;
     }
 }
